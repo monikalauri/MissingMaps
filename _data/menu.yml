@@ -1,0 +1,49 @@
+main:
+  - key: get_involved
+    name: Get Involved
+    url: #
+    weight: 1
+  - key: organize_event
+    name: Organize an Event
+    url: #
+    weight: 2
+  - key: events_calendar
+    name: Events Calendar
+    url: /events/
+    weight: 3
+  - key: blog
+    name: Blog
+    url: /blog/
+    weight: 4
+    child:
+      - name: "Blog Layout 1"
+        icon: "/assets/images/icons/menu/black/noun-wireframe-1514469-000000.svg"
+        icon_darkmode: "/assets/images/icons/menu/white/noun-wireframe-1514469-FFFFFF.svg"
+        description: "Default layout"
+        url: /blog/
+  - key: about
+    name: About
+    url: /about/
+    weight: 5
+
+#not translated: 
+footer_primary:
+  - name: Blog
+    url: /posts/
+    weight: 1
+  - name: About
+    url: /about/
+    weight: 2
+  - name: Contact
+    url: /contact/
+    weight: 3
+  - name: Buy Now
+    url: http://localhost:1313/theme/jekyll-origin/
+    weight: 4
+bottom:
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 1
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 2

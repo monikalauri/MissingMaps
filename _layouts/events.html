@@ -1,0 +1,137 @@
+---
+layout: default
+body_classes: page-basic page-events
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="title">
+
+          {% if page.title %}
+          <div class="title-heading">
+            <h1>{{ page.title }}</h1>
+          </div>
+          {% endif %}
+
+          {% if page.description %}
+          <div class="title-description">
+            <p>{{ page.description }}</p>
+          </div>
+          {% endif %}
+
+          {% if page.image and page.image != "" %}
+          <div class="title-image mt-3">
+            <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{%- comment -%}
+If the page has extra content, render it above the events list (same as basic.html).
+{%- endcomment -%}
+{% assign stripped = content | strip_newlines %}
+{% if stripped != "" %}
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+        <div class="content">{{ content }}</div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{%- comment -%}
+Events section (pre-rendered from _data/osmcal.json) + client-side search
+{%- endcomment -%}
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+
+        <!-- Search -->
+        <input id="q" type="search" placeholder="Search by event name…" aria-label="Search events"
+          style="margin:.75rem 0; width:100%; max-width:420px;">
+
+        <!-- List -->
+        <ul id="events" style="list-style:none; padding:0; margin:0;">
+          {% assign empty_array = "" | split: "" %}
+          {% assign events = site.data.osmcal | default: empty_array %}
+          {% if events.size == 0 %}
+          <li>No events available.</li>
+          {% else %}
+          {% for ev in events %}
+          {% assign name = ev.name | default: "Untitled event" %}
+          {% assign url = ev.url | default: "#" %}
+          {% assign date_human = ev.date.human | default: "Date: TBA" %}
+          {% assign place = "" %}
+          {% if ev.location and ev.location.short %}
+          {% assign place = " · " | append: ev.location.short %}
+          {% endif %}
+
+          <li class="event" data-name="{{ name | downcase }}" style="padding:1rem 0; border-bottom:1px solid #eee;">
+            <h3 style="margin:0 0 .25rem 0;">
+              <a href="{{ url }}" target="_blank" rel="noopener">{{ name }}</a>
+              {% if ev.cancelled %}
+              <span
+                style="font-size:.8em; padding:.1em .4em; border:1px solid #c00; color:#c00; border-radius:.25em; margin-left:.5em;">
+                Cancelled
+              </span>
+              {% endif %}
+            </h3>
+            <p style="margin:0; opacity:.8;">
+              {{ date_human }}{{ place }}
+            </p>
+          </li>
+          {% endfor %}
+          {% endif %}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  (() => {
+    const list = document.getElementById('events');
+    const q = document.getElementById('q');
+    if (!list || !q) return;
+
+    const items = Array.from(list.querySelectorAll('.event'));
+
+    function apply() {
+      const t = (q.value || '').trim().toLowerCase();
+      let shown = 0;
+      items.forEach(li => {
+        const match = !t || li.dataset.name.includes(t);
+        li.style.display = match ? '' : 'none';
+        if (match) shown++;
+      });
+
+      let nr = list.querySelector('.no-results');
+      if (!shown) {
+        if (!nr) {
+          nr = document.createElement('li');
+          nr.className = 'no-results';
+          nr.textContent = 'No events match your search.';
+          nr.style.padding = '1rem 0';
+          list.appendChild(nr);
+        }
+      } else if (nr) {
+        nr.remove();
+      }
+    }
+
+    q.addEventListener('input', apply);
+    apply();
+  })();
+</script>

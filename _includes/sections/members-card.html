@@ -1,0 +1,7 @@
+{%- assign href = include.url | default: "#" -%}
+<div class="col">
+  <a class="member-card d-flex align-items-center justify-content-center rounded-3 bg-white position-relative"
+    href="{{ href }}" target="_blank" aria-label="{{ include.title | escape }}">
+      <img class="member-logo-image" src="{{ include.img }}" alt="{{ include.title | escape }}">
+  </a>
+</div>

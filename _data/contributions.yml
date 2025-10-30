@@ -1,0 +1,18 @@
+title: "Contributions"
+items:
+  - icon: assets/images/icons/contributions/contributions.svg            # pick: heart, map, home, route (we'll style)
+    color: "#F59E0B"       # icon tile color
+    value: "182K+"
+    label: "Total contributors"
+  - icon: assets/images/icons/contributions/edits.svg
+    color: "#84CC16"
+    value: "104K+"
+    label: "Total edits"
+  - icon: assets/images/icons/contributions/building_edits.svg
+    color: "#60A5FA"
+    value: "64K+"
+    label: "Building edits"
+  - icon: assets/images/icons/contributions/roads.svg
+    color: "#FDE047"
+    value: "1.72 Million"
+    label: "Roads (km)"

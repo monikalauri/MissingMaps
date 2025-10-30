@@ -1,0 +1,46 @@
+# Test files
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+public
+
+# Ruby / Bundler
+.bundle
+vendor/bundle
+
+# Jekyll
+_site
+.jekyll-metadata
+.sass-cache
+.jekyll-cache
+.cache
+
+# Temporary files & logs
+log
+tmp
+*.log
+
+# Local env + secrets 
+.env
+.env.*
+*.local.yaml
+_data/private*.yml
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Editor/IDE
+.vscode/
+.idea/
+.fleet/
+.history/

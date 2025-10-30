@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Twitter",
+    "fa_icon": "fab fa-twitter",
+    "url": "https://x.com/TheMissingMaps"
+  },
+  {
+    "title": "Github",
+    "fa_icon": "fab fa-github",
+    "url": "https://github.com/MissingMaps"
+  },
+  {
+    "title": "Facebook",
+    "fa_icon": "fab fa-facebook-square",
+    "url": "https://www.facebook.com/TheMissingMaps"
+  },
+  {
+    "title": "Instagram",
+    "fa_icon": "fab fa-instagram-square",
+    "url": "https://www.instagram.com/themissingmaps/"
+  },
+  {
+    "title": "Flickr",
+    "fa_icon": "fab fa-flickr",
+    "url": "https://www.flickr.com/photos/126636925@N06/"
+  },
+  {
+    "title": "Wiki",
+    "fa_icon": "fab fa-wikipedia-w",
+    "url": "https://wiki.openstreetmap.org/wiki/Missing_Maps_Project"
+  },
+  {
+    "title": "RSS",
+    "fa_icon": "fas fa-feed",
+    "url": "https://jekyll-origin.netlify.app/feed.xml"
+  }
+]

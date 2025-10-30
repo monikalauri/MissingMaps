@@ -1,0 +1,23 @@
+{% assign data = site.data.contributions %}
+<div class="section contributions bg-primary-bg">
+  <div class="container">
+    <div class="row pb-6">
+      <h3>{{ data.title }}</h3>
+    </div>
+    <div class="row gy-4">
+      {% for it in data.items %}
+      <div class="col-6 col-md-3">
+        <article class="contrib-card">
+          <div class="homepage-icon" style="background: {{ it.color }};">
+            <img src="{{ it.icon | relative_url }}" alt="">
+          </div>
+          <div class="contrib-text mt-1">
+            <div class="contrib-value">{{ it.value }}</div>
+            <div class="small-info-text">{{ it.label }}</div>
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
