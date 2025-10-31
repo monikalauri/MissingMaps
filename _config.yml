@@ -109,7 +109,7 @@ fonts:
 
 logo:
  # logo_text:
-  logo_image: assets/images/logo/logo.svg
+  logo_image: assets/images/logo/Logo.svg
   logo_image_mobile: assets/images/logo/logo-mobile.svg
   logo_image_invert: assets/images/logo/logo-invert.svg
   logo_image_invert_mobile: assets/images/logo/logo-invert-mobile.svg
