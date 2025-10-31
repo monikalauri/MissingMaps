@@ -11,7 +11,10 @@ body_classes: page-home
         <div class="subheading pt-2 pb-4">{{ page.description}}</div>
         {% if page.header_button_url %}
         <div class="d-inline-flex flex-wrap gap-1 gap-md-2">
-          <a class="button btn-dark btn-white-arrow" href="{{ page.header_button_url | relative_url }}">{{ page.header_button_label }}</a>
+          <a class="button btn-dark" href="{{ page.header_button_url | relative_url }}">
+            {{ page.header_button_label }}
+            {% include icons/arrow.svg %}
+          </a>
           {% if page.header_button_two_url %}
             <a class="button btn-outline-dark" href="{{ page.header_button_two_url | relative_url }}">{{ page.header_button_two_label }}</a>
           {% endif %}
@@ -211,7 +214,10 @@ body_classes: page-home
           {{ page.posts_sub_heading }}
         </div>
         {% if page.posts_button_url %}
-          <a class="button btn-dark btn-white-arrow" href="{{ page.posts_button_url | relative_url }}">{{ page.posts_button_label }}</a>
+          <a class="button btn-dark btn-white-arrow" href="{{ page.posts_button_url | relative_url }}">
+            {{ page.posts_button_label }}
+            {% include icons/arrow.svg %}
+          </a>
         {% endif %}
       </div>
       <div class="col-md-6 d-none d-md-block posts-image">
