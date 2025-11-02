@@ -5,6 +5,7 @@ permalink: "/"
 title: "Mapping Together for Humanitarian Action"
 description: "Missing Maps is an open, collaborative project in which you can help to map areas where humanitarian organisations are trying to meet the needs of people who live at risk of disasters and crises."
 image: "/assets/images/home/hero.svg"
+image_mobile: "/assets/images/home/hero-mobile.svg"
 show_social_media_in_title: false
 meta_title: Missing Maps
 meta_description: "Missing Maps is a project that uses satellite imagery and OpenStreetMap to map areas where disasters and crises affect people."

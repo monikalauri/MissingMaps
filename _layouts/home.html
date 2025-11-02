@@ -24,7 +24,8 @@ body_classes: page-home
     </div>
     <div class="row">
       <div class="col-12 hero-img">
-        <img src="{{ page.image | relative_url }}" alt="">
+        <img class="img-fluid d-block d-md-none" src="{{ page.image_mobile | relative_url }}" alt="Hero Image" loading="lazy" decoding="async">
+        <img class="img-fluid d-none d-md-block" src="{{ page.image| relative_url }}" alt="Hero Image" loading="lazy" decoding="async">
       </div>
     </div>
   </div>

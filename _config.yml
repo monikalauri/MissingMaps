@@ -91,12 +91,12 @@ colors:
   primary_text_dark: "#0C2E45"
   base_bg_dark: "#ffffff"
   base_bg_2_dark: "#F1F9FE"
-  base_bg_3_dark: "#24272d"
+  base_bg_3_dark: "#E2F2FC"
   base_bg_4_dark: "#EEF2F4" #light gray bg
-  base_text_dark: "#F4F4F5"
-  base_text_2_dark: "#D1D5DB"
-  logo_text_dark: "#F4F4F5"
-  menu_text_dark: "#F4F4F5"
+  base_text_dark: "#0C2E45"
+  base_text_2_dark: "#637885"
+  logo_text_dark: "#191a1a"
+  menu_text_dark: "#191a1a"
 
 fonts:
   use_google_fonts: false # will use external google_fonts url below
