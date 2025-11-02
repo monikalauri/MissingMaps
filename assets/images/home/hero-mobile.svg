@@ -31,23 +31,19 @@
 <g filter="url(#filter3_n_552_212)">
 <path d="M351.111 70.6103C353.885 67.3012 358.383 67.3012 361.156 70.6103" stroke="#0C2E45" stroke-width="1.5" stroke-linecap="round"/>
 </g>
-<g filter="url(#filter4_n_552_212)">
 <path d="M240.25 239.958H480.21V200.355C480.21 172.741 457.824 150.355 430.21 150.355H290.25C262.636 150.355 240.25 172.741 240.25 200.355V239.958Z" fill="#EF7B22"/>
 <rect width="46.7422" height="44.1005" transform="matrix(-1 0 0 1 373.091 128.391)" fill="#EF7B22"/>
-</g>
 <path d="M321.587 150.442C303.428 150.442 288.706 135.72 288.706 117.561C288.706 99.4012 303.428 84.6799 321.587 84.6799L323.253 84.6799C341.413 84.6799 356.134 99.4012 356.134 117.561C356.134 135.72 341.413 150.442 323.254 150.442L321.587 150.442Z" fill="#0C2E45"/>
 </g>
 <g clip-path="url(#clip2_552_212)">
 <rect width="240" height="239" transform="translate(480)" fill="#EAF3D4"/>
 <path d="M518.042 146.146C521.489 139.541 528.322 135.399 535.773 135.399H663.225C670.676 135.399 677.51 139.541 680.957 146.146L724.431 229.462C731.379 242.777 721.719 258.714 706.7 258.714H492.298C477.279 258.714 467.619 242.777 474.567 229.462L518.042 146.146Z" fill="#9CC652"/>
-<g filter="url(#filter5_n_552_212)">
 <ellipse cx="599.498" cy="172.666" rx="41.4508" ry="16.5978" fill="#628927"/>
-</g>
 <path d="M600.001 17.9987C616.114 17.9988 631.566 24.3733 642.96 35.7194C654.353 47.0655 660.755 62.4538 660.755 78.4996C660.755 116.26 618.69 155.585 604.564 167.731C603.248 168.716 601.647 169.25 600.001 169.25C598.354 169.25 596.752 168.716 595.436 167.731C581.311 155.585 539.246 116.26 539.246 78.4996C539.246 62.4538 545.647 47.0655 557.041 35.7194C568.434 24.3732 583.888 17.9987 600.001 17.9987ZM599.997 55.8121C587.414 55.8122 577.214 65.9695 577.214 78.4996C577.214 91.0298 587.414 101.188 599.997 101.188C612.579 101.188 622.78 91.0298 622.78 78.4996C622.78 65.9695 612.579 55.8121 599.997 55.8121Z" fill="#E12A23"/>
 </g>
 <g clip-path="url(#clip3_552_212)">
 <rect y="238.5" width="240" height="240" fill="#9CC652"/>
-<g filter="url(#filter6_n_552_212)">
+<g filter="url(#filter4_n_552_212)">
 <path d="M164.243 445.662L178.598 450.013L164.243 445.662ZM94.4286 206.914L82.6794 197.589L64.0294 221.088L75.7787 230.413L85.1037 218.664L94.4286 206.914ZM152.17 271.892L142.845 283.641L152.17 271.892ZM111.509 339.973L117.432 326.192L111.509 339.973ZM84.6574 328.433L90.5804 314.651H90.5804L84.6574 328.433ZM71.1518 394.06V409.06H125.963V394.06V379.06H71.1518V394.06ZM164.243 445.662L149.888 441.311L131.709 501.29L146.064 505.641L160.419 509.992L178.598 450.013L164.243 445.662ZM85.1037 218.664L75.7787 230.413L142.845 283.641L152.17 271.892L161.495 260.143L94.4286 206.914L85.1037 218.664ZM111.509 339.973L117.432 326.192L90.5804 314.651L84.6574 328.433L78.7345 342.214L105.586 353.754L111.509 339.973ZM152.17 271.892L142.845 283.641C165.706 301.785 144.247 337.717 117.432 326.192L111.509 339.973L105.586 353.754C164.578 379.108 211.79 300.06 161.495 260.143L152.17 271.892ZM125.963 394.06V409.06C142.739 409.06 154.754 425.256 149.888 441.311L164.243 445.662L178.598 450.013C189.304 414.692 162.87 379.06 125.963 379.06V394.06ZM36.9486 359.856H21.9486C21.9486 387.031 43.9776 409.06 71.1518 409.06V394.06V379.06C60.5462 379.06 51.9486 370.462 51.9486 359.856H36.9486ZM36.9486 359.856H51.9486C51.9486 346.062 66.0607 336.767 78.7345 342.214L84.6574 328.433L90.5804 314.651C58.1071 300.695 21.9486 324.511 21.9486 359.856H36.9486Z" fill="#3E5420"/>
 </g>
 <path d="M146.065 505.641L164.244 445.662C172.03 419.974 152.805 394.06 125.964 394.06H71.1524C52.2625 394.06 36.9492 378.746 36.9492 359.856C36.9492 335.286 62.0845 318.731 84.658 328.433L111.51 339.973C154.413 358.412 188.749 300.923 152.171 271.892L85.1043 218.664" stroke="#F5FAEB" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 20"/>
@@ -56,9 +52,7 @@
 </g>
 <g clip-path="url(#clip4_552_212)">
 <rect x="239.98" y="238.979" width="240" height="240" fill="#F5EB01"/>
-<g filter="url(#filter7_n_552_212)">
 <path d="M220.321 433.712C220.274 406.098 242.622 383.712 270.236 383.712H450.514C478.128 383.712 500.552 406.098 500.599 433.712L500.789 546.509H220.512L220.321 433.712Z" fill="#E12A23"/>
-</g>
 <path d="M359.831 254.299C365.568 254.299 370.831 256.327 374.944 259.703C376.147 260.691 377.758 261.056 379.277 260.718C380.744 260.392 382.268 260.219 383.832 260.219C393.827 260.219 402.179 267.242 404.228 276.622C404.684 278.71 406.416 280.37 408.461 280.993C414.005 282.683 418.037 287.838 418.037 293.934C418.037 296.766 417.166 299.394 415.678 301.566C414.965 302.607 414.583 303.861 414.707 305.117C414.782 305.888 414.822 306.67 414.822 307.461C414.821 320.627 404.148 331.299 390.983 331.299C377.817 331.299 367.144 320.627 367.144 307.461C367.144 304.562 364.165 301.76 361.27 301.933C360.794 301.962 360.314 301.976 359.831 301.976C359.427 301.976 359.048 302.175 358.82 302.509C354.529 308.799 347.305 312.929 339.116 312.929C325.95 312.929 315.277 302.257 315.277 289.091C315.277 280.555 319.764 273.066 326.508 268.856C327.409 268.293 328.093 267.444 328.525 266.474C330.634 261.747 335.375 258.452 340.885 258.452C341.695 258.452 342.488 258.523 343.259 258.66C344.585 258.895 345.976 258.691 347.115 257.972C350.796 255.646 355.156 254.299 359.831 254.299Z" fill="#40170A"/>
 <path d="M338.955 338.919H384.262V385.943C384.262 398.454 374.12 408.596 361.608 408.596C349.097 408.596 338.955 398.454 338.955 385.943V338.919Z" fill="#C99C71"/>
 <mask id="mask1_552_212" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="338" y="338" width="47" height="61">
@@ -79,22 +73,22 @@
 <ellipse cx="390.29" cy="301.432" rx="13.0149" ry="13.451" transform="rotate(15 390.29 301.432)" fill="#40170A"/>
 <ellipse cx="320.093" cy="282.472" rx="16.8999" ry="17.4662" transform="rotate(15 320.093 282.472)" fill="#40170A"/>
 </g>
-<g filter="url(#filter8_n_552_212)">
+<g filter="url(#filter5_n_552_212)">
 <path d="M348.643 311.804L343.929 321.94" stroke="#0C2E45" stroke-width="1.5" stroke-linecap="round"/>
 </g>
-<g filter="url(#filter9_n_552_212)">
+<g filter="url(#filter6_n_552_212)">
 <path d="M337.687 328.196C339.641 331.579 343.966 332.738 347.349 330.785" stroke="#0C2E45" stroke-width="1.5" stroke-linecap="round"/>
 </g>
-<g filter="url(#filter10_n_552_212)">
+<g filter="url(#filter7_n_552_212)">
 <rect x="361.584" y="314.59" width="2.58433" height="2.58433" rx="1.29217" transform="rotate(15 361.584 314.59)" fill="#0C2E45"/>
 <rect x="361.938" y="315.202" width="1.58433" height="1.58433" rx="0.792166" transform="rotate(15 361.938 315.202)" stroke="#0C2E45"/>
 </g>
-<g filter="url(#filter11_n_552_212)">
+<g filter="url(#filter8_n_552_212)">
 <rect x="334.555" y="307.347" width="2.58433" height="2.58433" rx="1.29217" transform="rotate(15 334.555 307.347)" fill="#0C2E45"/>
 <rect x="334.908" y="307.959" width="1.58433" height="1.58433" rx="0.792166" transform="rotate(15 334.908 307.959)" stroke="#0C2E45"/>
 </g>
 <rect x="376.072" y="314.818" width="33.1745" height="24.3004" rx="12.1502" transform="rotate(15 376.072 314.818)" fill="#C99C71"/>
-<g filter="url(#filter12_n_552_212)">
+<g filter="url(#filter9_n_552_212)">
 <path d="M397.957 332.089L390.429 330.09" stroke="#0C2E45" stroke-width="1.5" stroke-linecap="round"/>
 </g>
 </g>
@@ -166,7 +160,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter4_n_552_212" x="240.25" y="128.391" width="239.96" height="111.567" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter4_n_552_212" x="21.9486" y="197.589" width="160.802" height="312.403" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
@@ -182,7 +176,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter5_n_552_212" x="558.047" y="156.069" width="82.9016" height="33.1956" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter5_n_552_212" x="343.179" y="311.054" width="6.2146" height="11.6357" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
@@ -198,7 +192,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter6_n_552_212" x="21.9486" y="197.589" width="160.802" height="312.403" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter6_n_552_212" x="336.937" y="327.446" width="11.1624" height="5.03796" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
@@ -214,7 +208,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter7_n_552_212" x="220.321" y="383.712" width="280.469" height="162.797" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter7_n_552_212" x="361.206" y="314.88" width="2.58496" height="2.58496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
@@ -230,7 +224,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter8_n_552_212" x="343.179" y="311.054" width="6.2146" height="11.6357" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter8_n_552_212" x="334.176" y="307.637" width="2.58496" height="2.58496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
@@ -246,55 +240,7 @@
 <feMergeNode in="color1" />
 </feMerge>
 </filter>
-<filter id="filter9_n_552_212" x="336.937" y="327.446" width="11.1624" height="5.03796" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
-<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
-<feComponentTransfer in="alphaNoise" result="coloredNoise1">
-<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-<feFlood flood-color="rgba(0, 0, 0, 0.15)" result="color1Flood" />
-<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-<feMerge result="effect1_noise_552_212">
-<feMergeNode in="shape" />
-<feMergeNode in="color1" />
-</feMerge>
-</filter>
-<filter id="filter10_n_552_212" x="361.206" y="314.88" width="2.58496" height="2.58496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
-<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
-<feComponentTransfer in="alphaNoise" result="coloredNoise1">
-<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-<feFlood flood-color="rgba(0, 0, 0, 0.15)" result="color1Flood" />
-<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-<feMerge result="effect1_noise_552_212">
-<feMergeNode in="shape" />
-<feMergeNode in="color1" />
-</feMerge>
-</filter>
-<filter id="filter11_n_552_212" x="334.176" y="307.637" width="2.58496" height="2.58496" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feTurbulence type="fractalNoise" baseFrequency="2.093630313873291 2.093630313873291" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
-<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
-<feComponentTransfer in="alphaNoise" result="coloredNoise1">
-<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
-</feComponentTransfer>
-<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
-<feFlood flood-color="rgba(0, 0, 0, 0.15)" result="color1Flood" />
-<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
-<feMerge result="effect1_noise_552_212">
-<feMergeNode in="shape" />
-<feMergeNode in="color1" />
-</feMerge>
-</filter>
-<filter id="filter12_n_552_212" x="389.679" y="329.34" width="9.02783" height="3.49976" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter9_n_552_212" x="389.679" y="329.34" width="9.02783" height="3.49976" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feTurbulence type="fractalNoise" baseFrequency="4.9049410820007324 4.9049410820007324" stitchTiles="stitch" numOctaves="3" result="noise" seed="9343" />
