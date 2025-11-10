@@ -3,13 +3,16 @@
     <div class="row">
 
         <div class="col-12 col-md-4">
-          <div class="footer-info">
+          {% if site.footer.footer_logo and site.footer.footer_logo != "" %}
+          <img src="{{ site.footer.footer_logo  | relative_url }}" class="" alt="Logo">
+          {% endif %}
+          <div class="footer-info mt-2">
             {% if site.footer.footer_title and site.footer.footer_title != "" %}
-              <h2>{{ site.footer.footer_title }}</h2>
+              <h4>{{ site.footer.footer_title }}</h2>
             {% endif %}
 
-            {% if site.footer.footer_description and site.footer.footer_description != "" %}
-              <p>{{ site.footer.footer_description }}</p>
+            {% if site.footer.footer_link and site.footer.footer_link != "" %}
+              <a href="mailto:{{site.footer.footer_link}}">{{ site.footer.footer_link }}</a>
             {% endif %}
           </div>
 

@@ -1,14 +1,8 @@
-<div class="bottom">
+<div class="bottom bg-primary-bg">
   <div class="container relative">
-    <div class="row align-items-center justify-content-between">
-      <div class="col-auto">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-12 col-md-auto">
        
-        {% if site.bottom.enable_bottom_menu %}
-          {% include framework/menu-bottom.html %}
-        {% endif %}
-        {% if site.cookie_banner.enabled and site.cookie_banner.show_manage_cookies_at_bottom %}
-          <a href="#" data-cc="c-settings">Cookies</a>
-        {% endif %}
         {% if site.bottom.copyright_text and site.bottom.copyright_text != "" %}
           <div class="copyright">{{ site.bottom.copyright_text }}</div>
         {% endif %}
@@ -18,7 +12,14 @@
             <i class="fas fa-feed"></i>
           </a>
         {% endif %}
-        
+      </div>
+      <div class="col-12 col-md-auto">
+          {% if site.bottom.enable_bottom_menu %}
+          {% include framework/menu-bottom.html %}
+          {% endif %}
+          {% if site.cookie_banner.enabled and site.cookie_banner.show_manage_cookies_at_bottom %}
+            <a href="#" data-cc="c-settings">Cookies</a>
+          {% endif %}        
       </div>
       {% if site.darkmode.enable_dark_mode and site.darkmode.show_dark_mode_toggle_in_bottom %}
         <div class="col-auto">

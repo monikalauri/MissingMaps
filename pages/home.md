@@ -29,7 +29,11 @@ step_3_image: "/assets/images/home/step3.svg"
 section_3_title: "How to participate?"
 
 participate_1_title: "Start mapping now"
-participate_1_text: " Never mapped before? Don’t worry, it doesn’t take long to learn.The best way is at a mapathon, where volunteers get training and map together. Check the Events Calendar for upcoming Missing Maps events! n\ If you don’t see any events in your language or time, you can still start mapping anytime - visit our Get Involved page and choose a mapping tool. New events are added regularly!"
+participate_1_text: |-
+  Never mapped before? Don’t worry, it doesn’t take long to learn. The best way is at a mapathon, where volunteers get training and map together. Check the Events Calendar for upcoming Missing Maps events!
+  
+  If you don’t see any events in your language or time, you can still start mapping anytime — visit our Get Involved page and choose a mapping tool. New events are added regularly!
+
 participate_1_image: "/assets/images/home/participate1.jpg"
 participate_1_buttons:
   - label: "Join a Mapathon"
@@ -49,6 +53,7 @@ participate_2_buttons:
 participate_3_title: "Map your community"
 participate_3_text: "Many organizations are using OSM to inform their programs. OSM is great for collecting field data while empowering communities. If you are interested in creating and using data from open mapping tools in your work, explore the field mapping section."
 participate_3_image: "/assets/images/home/participate3.jpg"
+participate_3_credit: "Credit: Maria Jimena Henao Salgado, Universidad Nacional de Colombia, taken in Cartagena, Colombia"
 participate_3_buttons:
   - label: "Field mapping"
     url: "/get-involved/"

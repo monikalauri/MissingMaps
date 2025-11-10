@@ -98,6 +98,11 @@ body_classes: page-home
               <div class="htp-media h-100 rounded-3 overflow-hidden">
                 <img src="{{ page.participate_1_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
                   alt="">
+                  {%- if page.participate_1_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_1_credit }}</span>
+                  </div>
+                  {%- endif -%}
               </div>
             </div>
     
@@ -106,7 +111,7 @@ body_classes: page-home
               <div class="htp-copy h-100 d-flex flex-column justify-content-between">
                 <h3 class="mb-3">{{ page.participate_1_title }}</h3>
                 <div>
-                  <div class="mb-3">{{ page.participate_1_text | newline_to_br }}</div>
+                  <div class="mb-3">{{ page.participate_1_text | markdownify }}</div>
                   {% if page.participate_1_buttons %}
                   <div class="d-flex flex-wrap gap-1 gap-md-2">
                     {% for btn in page.participate_1_buttons %}
@@ -132,6 +137,11 @@ body_classes: page-home
               <div class="htp-media h-100 rounded-3 overflow-hidden">
                 <img src="{{ page.participate_2_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
                   alt="">
+                {%- if page.participate_2_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_2_credit }}</span>
+                  </div>
+                {%- endif -%}
               </div>
             </div>
     
@@ -166,6 +176,11 @@ body_classes: page-home
               <div class="htp-media h-100 rounded-3 overflow-hidden">
                 <img src="{{ page.participate_3_image | relative_url }}" class="w-100 h-100 object-fit-cover d-block"
                   alt="">
+                  {%- if page.participate_3_credit -%}
+                  <div class="credit-badge">
+                    <span>{{ page.participate_3_credit }}</span>
+                  </div>
+                  {%- endif -%}
               </div>
             </div>
     

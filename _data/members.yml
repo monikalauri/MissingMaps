@@ -7,7 +7,7 @@
   img: assets/images/home/Members/The-Netherlands-Red-Cross.svg
 
 - title: GIScience
-  url: https://giscience2025.org/
+  url: ''
   img: assets/images/home/Members/GIScience.svg
 
 - title: HeiGIT
@@ -31,7 +31,7 @@
   img: assets/images/home/Members/Canadian-Red-Cross.svg
 
 - title: Crowdmap Tanzania
-  url: https://crowdmaptanzania.or.tz/
+  url: https://crowd2map.org/
   img: assets/images/home/Members/Crowd2map-tanzania.svg
 
 - title: Map Kibera
@@ -55,7 +55,7 @@
   img: assets/images/home/Members/CruzRoja-Espanola.svg
 
 - title: Kenya Red Cross
-  url: https://kenyaredcross.or.ke/
+  url: https://www.redcross.or.ke/
   img: assets/images/home/Members/Kenya-Red-Cross.svg
 
 - title: IFRC
@@ -63,7 +63,7 @@
   img: assets/images/home/Members/Ifrc.svg
 
 - title: 3iS Information Innovation Impact
-  url: https://3isinnovation.org/
+  url: https://3is.org/
   img: assets/images/home/Members/Information-Innovation-Impact.svg
 
 - title: YouthMappers

@@ -257,6 +257,22 @@ h4 {
 
 .htp-media {
   min-height: 24rem;
+  position: relative;
+}
+
+.credit-badge {
+  position: absolute;
+  right: .5rem;
+  bottom: .5rem;
+  padding: .25rem .5rem;
+  font-size: .45rem;
+  line-height: 0.5rem;
+  background: var(--color-base-bg-2);
+  border-radius: .25rem;
+  pointer-events: none;
+  max-width: 32%;
+  white-space: normal;
+  text-align: center;
 }
 
 .home-blog {
@@ -277,6 +293,7 @@ h4 {
     max-width: 100%;
   }
 }
+
 
 
 /* Homepage Icons */
@@ -440,4 +457,27 @@ h4 {
 
 .project-card .card-content {
   padding: 1.5rem 0.5rem;
+}
+
+/* Footer Styling */
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  margin-bottom: -2px;
+}
+
+.footer-info {
+  h4 {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+}
+
+.bottom {
+  padding-top: unset;
+
+  .row {
+    padding-top: 40px;
+    border-top: 1px solid var(--color-base-bg)
+  }
 }
