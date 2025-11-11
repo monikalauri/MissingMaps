@@ -1,8 +1,12 @@
 main:
   - key: get_involved
     name: Get Involved
-    url: #
     weight: 1
+    child:
+      - name: "MapSwipe"
+        url: /mapswipe/
+      - name: "HOT Tasking Manager"
+        url: /hot-tasking-manager/
   - key: organize_event
     name: Organize an Event
     url: #

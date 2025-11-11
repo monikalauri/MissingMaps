@@ -3,10 +3,17 @@ layout: default
 body_classes: page-basic
 ---
 
-<div class="section">
+<div class="section pb-0">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-8">
+      {% if page.image and page.image != "" %}
+        <div class="col-12">
+          <div class="title-image rounded-3">
+            <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
+          </div>
+        </div>
+      {% endif %}
+      <div class="col-12 col-lg-10 mt-4">
         <div class="title">
 
           {% if page.title %}
@@ -17,14 +24,8 @@ body_classes: page-basic
 
           {% if page.description %}
           <div class="title-description">
-            <p>{{ page.description }}</p>
+            <p>{{ page.description | markdownify }}</p>
           </div>
-          {% endif %}
-
-          {% if page.image and page.image != "" %}
-            <div class="title-image mt-3">
-              <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
-            </div>
           {% endif %}
 
         </div>
@@ -35,10 +36,10 @@ body_classes: page-basic
 
 {% assign content = content | strip_newlines %}
 {% if content != "" %}
-<div class="section pt-0">
+<div class="section ">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-8">
+      <div class="col-12 col-lg-10">
         <div class="content">{{ content }}</div>
       </div>
     </div>

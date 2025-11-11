@@ -11,32 +11,37 @@ body {
   font-size: 16px;
 }
 
-h1 {
+h1,
+.title-heading h1 {
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 3.5rem;
 }
 
-h2 {
+h2,
+.content h1 {
   font-size: 3rem;
   font-weight: 500;
   line-height: 3rem;
 }
 
 h3,
-.card-title .h3 {
+.card-title .h3,
+.content h2 {
   font-size: 2rem;
   font-weight: 500;
   line-height: 2rem;
 }
 
-h4 {
+h4,
+.content h3 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.5rem;
 }
 
-.subheading {
+.subheading,
+.title .title-description p {
   font-size: 1.25rem;
   line-height: 1.25rem;
 }
@@ -44,6 +49,22 @@ h4 {
 .small-info-text {
   font-size: 0.875rem;
   text-transform: uppercase;
+}
+
+p,
+.title .title-description p,
+.content p {
+  color: var(--color-primary-bg);
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.title .title-description {
+  width: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -100,6 +121,7 @@ h4 {
   padding: 0.625rem 1rem;
   border: 1px solid;
   border-radius: 0.5rem;
+  text-decoration: unset !important;
 
   svg {
     width: 1rem;
@@ -109,27 +131,33 @@ h4 {
 
 }
 
-.btn-dark {
+.btn-dark,
+.button-dark,
+.button-primary {
   background-color: var(--color-primary-bg);
   border-color: var(--color-primary-bg);
-  color: var(--color-base-bg);
+  color: var(--color-base-bg) !important;
 }
 
-.btn-dark:hover {
+.btn-dark:hover,
+.button-dark:hover,
+.button-primary:hover {
   background-color: var(--color-primary-bg-2);
   border-color: var(--color-primary-bg-2);
-  color: var(--color-base-bg);
+  color: var(--color-base-bg) !important;
 }
 
-.btn-outline-dark {
+.btn-outline-dark,
+.button-outline {
   background-color: unset;
-  color: var(--color-primary-bg);
+  color: var(--color-primary-bg) !important;
   border-color: var(--color-primary-bg);
 }
 
-.btn-outline-dark:hover {
+.btn-outline-dark:hover,
+.button-outline:hover {
   background-color: unset;
-  color: var(--color-primary-bg-2);
+  color: var(--color-primary-bg-2) !important;
   border-color: var(--color-primary-bg-2);
 }
 
@@ -480,4 +508,14 @@ h4 {
     padding-top: 40px;
     border-top: 1px solid var(--color-base-bg)
   }
+}
+
+/* Layout Basic */
+
+.title-image img {
+  border-radius: 0.5rem;
+  width: 100%;
+  max-height: 20rem;
+  object-fit: cover;
+
 }
