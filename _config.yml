@@ -109,10 +109,10 @@ fonts:
 
 logo:
  # logo_text:
-  logo_image: assets/images/logo/Logo.svg
-  logo_image_mobile: assets/images/logo/logo-mobile.svg
-  logo_image_invert: assets/images/logo/Logo.svg
-  logo_image_invert_mobile: assets/images/logo/logo-mobile.svg
+  logo_image: assets/images/logo/logo.svg
+  logo_image_mobile: assets/images/logo/logo.svg
+  logo_image_invert: assets/images/logo/logo.svg
+  logo_image_invert_mobile: assets/images/logo/logo.svg
   logo_image_desktop_height: "40px"
   logo_image_desktop_width: "100px"
   logo_image_mobile_height: "30px"
