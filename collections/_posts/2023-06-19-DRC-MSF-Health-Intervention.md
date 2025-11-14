@@ -2,13 +2,12 @@
 layout: post
 title: "Geodata guiding health interventions in IDP camps around Goma"
 postID: DRC-MSF-Health-Intervention
-category: blog
 banner: https://www.missingmaps.org/img/images/missingmaps-blog_20230619_DRC_banner.JPEG
 date: 2023-06-19
 author: Jana Bauerová
 excerpt: "Amidst the ongoing conflict and displacement crisis in the Democratic Republic of Congo, utilizing geodata contributes to an effective evaluation of the situation, understanding the extent of displacement in a setting where estimating the number and spread of population is never an easy task."
 published: true
-tags: [MSF, Medecins Sans Frontieres, Health, Cholera, DRC, Democratic Republic of Congo, displaced, IDP]
+categories: [MSF, Medecins Sans Frontieres, Health, Cholera, DRC, Democratic Republic of Congo, displaced, IDP]
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---

@@ -519,3 +519,19 @@ p,
   object-fit: cover;
 
 }
+
+/* Post Styling */
+
+.page-post {
+  .page-author {
+    display: inline-flex;
+  }
+}
+
+.pagination {
+
+  li span,
+  li a:hover {
+    color: var(--color-base-bg) !important;
+  }
+}

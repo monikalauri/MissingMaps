@@ -36,11 +36,12 @@ body_classes: page-blog
                   {% include theme/cards/card-post.html
                     date=post.date
                     title=post.title
-                    description=post.description 
-                    thumbnail=post.thumbnail 
+                    description=post.excerpt
+                    thumbnail=post.banner 
+                    image=post.banner
                     url=post.url
-                    authors=post.authors
-                    categories=post.categories
+                    authors=post.author
+                    categories=false
                     show_read_more=false
                   %}
                 </div>

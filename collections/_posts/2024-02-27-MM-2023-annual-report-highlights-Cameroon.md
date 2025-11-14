@@ -2,13 +2,12 @@
 layout: post
 title: "Missing Maps 2023 annual report & highlights from Cameroon"
 postID: MM-2023-annual-report-highlights-Cameroon
-category: blog
 banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20240227_Gathering_Group.jpg
 date: 2024-02-27
 author: Jorieke Vyncke and Jana Bauerová
 excerpt: The State of the Map Africa 2023 provided a space for a hybrid Missing Maps annual meeting on the edges of the conference in Yaoundé, as well as the first-ever Missing Maps annual report with highlights, successes and challenges.
 published: true
-tags: [state of the map, conference, africa, gathering, annual report]
+categories: [state of the map, conference, africa, gathering, annual report]
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---

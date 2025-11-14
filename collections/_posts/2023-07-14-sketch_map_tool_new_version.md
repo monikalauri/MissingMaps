@@ -2,13 +2,12 @@
 layout: post
 title: Participatory Mapping taken one step further - The new version of the Sketch Map Tool
 postID: new-version-sketch-map-tool
-category: blog
 banner: https://www.missingmaps.org/img/images/missingmaps-blog-20230714_community_mapping.jpeg
 date: 2023-07-14
 author: Melanie Eckle and Alec Schulze-Eckle
 excerpt: The Heidelberg Institute for Geoinformation Technology team recently launched a new version of the Skecth Map Tool - an easy-to-use tool for participatory sketch mapping through offline data collection, digitization and georeferencing of local spatial knowledge.
 published: true
-tags:  [participatory mapping, analog map, digital map, sketch tool]
+categories:  [participatory mapping, analog map, digital map, sketch tool]
 permalink: /blog/:year/:month/:day/:title/
 lang: en
 ---
