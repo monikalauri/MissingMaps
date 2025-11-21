@@ -5,6 +5,10 @@ postID: cartographier-l-occupation-du-sol-avec-OSM-Cameroun
 banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png
 date: 2022-10-14
 author: Camille Couturier
+excerpt: "Afin d'améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s'est efforcé de collecter de meilleures données et d'enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays." 
+published: true
+categories: [OSM, partners]
+permalink: /blog/:year/:month/:day/:title/
 lang: fr
 ---
 
@@ -15,18 +19,7 @@ lang: fr
 title: Cartographier l’occupation du sol ave<figure>
 <img src="https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_cp3_usingrelations.png">
 <p class="caption">Utilisation d'une relation dans la cartographie de l'usage et de l'occupation du sol sur OSM</p>
-</figure>M Cameroun
-postID: cartographier-l-occupation-du-sol-avec-OSM-Cameroun
-banner: https://raw.githubusercontent.com/MissingMaps/img/main/images/missingmaps-blog_20221012_banner.png
-date: 2022-10-14
-author: Yves Emmanuel Nikoyo Emougou, Jorieke Vyncke, Lale Pirlot
-excerpt: "Afin d'améliorer la cartographie de l’occupation et l’usage du sol au Cameroun, OSM Cameroun s'est efforcé de collecter de meilleures données et d'enrichir la carte OSM qui montre les régularités d’occupation du sol à travers le pays." 
-published: true
-categories: [OSM, partners]
-permalink: /blog/:year/:month/:day/:title/
-lang: fr
----
-
+</figure>
 
 ### Introduction
 Le Cameroun est souvent appelé « *l'Afrique en miniature* », en raison de la diversité des paysages du pays et du fait que la plupart des paysages géographiques qui ornent le continent africain se retrouvent presque tous au Cameroun. Le pays est un cas très intéressant pour la cartographie de l’occupation du sol et qui d’autre est mieux placé que sa communauté OSM pour le faire?

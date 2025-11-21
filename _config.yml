@@ -12,7 +12,7 @@ plugins:
   - jekyll-environment-variables
   - jekyll-paginate
 
-paginate: 6
+paginate: 9
 paginate_path: "/blog/page/:num"
 
 # Collections

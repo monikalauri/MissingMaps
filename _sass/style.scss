@@ -41,9 +41,11 @@ h4,
 }
 
 .subheading,
-.title .title-description p {
+.title .title-description p,
+.page-post .post-header .post-description p {
   font-size: 1.25rem;
   line-height: 1.25rem;
+  font-weight: 400;
 }
 
 .small-info-text {
@@ -53,7 +55,8 @@ h4,
 
 p,
 .title .title-description p,
-.content p {
+.content p,
+.page-post .post-header .post-description p {
   color: var(--color-primary-bg);
 }
 
@@ -458,6 +461,10 @@ p,
   img {
     object-fit: cover !important;
   }
+
+  a {
+    min-width: 100%;
+  }
 }
 
 .card-meta {
@@ -531,7 +538,12 @@ p,
 .pagination {
 
   li span,
-  li a:hover {
+  li a:hover,
+  li.ellipsis span:hover {
     color: var(--color-base-bg) !important;
+  }
+
+  li.ellipsis span {
+    color: var(--color-primary-bg) !important;
   }
 }
