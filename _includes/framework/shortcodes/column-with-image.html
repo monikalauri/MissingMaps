@@ -1,0 +1,27 @@
+{% assign heading=include.heading %}
+{% assign text=include.text %}
+{% assign button_text=include.button_text %}
+{% assign button_url=include.button_url %}
+{% assign button_external=include.button_external %}
+{% assign image=include.image %}
+{% assign color=include.color | default: "blue" %}
+
+<div class="row htp-card--{{color}} p-1 align-items-stretch rounded-4 mt-8 mb-8">
+  <div class="col-12 col-md-6 d-flex flex-column justify-content-between p-2 pe-md-5">
+      <div>
+      <h3 class="mb-3">{{ heading }}</h3>
+      <div class="mb-3">
+        <p>{{ text | markdownify }}</p>
+      </div>
+      </div>
+      {%- if button_text -%}
+      <div>
+        {% include framework/button.html text=button_text url=button_url external=button_external %}
+      </div>
+      {%- endif -%}
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="column-image rounded-3 position-relative" style="background-image: url('{{ image | relative_url }}');">
+    </div>
+  </div>
+</div>

@@ -7,10 +7,20 @@ main:
         url: /mapswipe/
       - name: "HOT Tasking Manager"
         url: /hot-tasking-manager/
+      - name: "Field Mapping"
+        url: /field-mapping/
+      - name: "Current Projects"
+        url: /current-projects/
   - key: organize_event
     name: Organize an Event
-    url: #
     weight: 2
+    child:
+      - name: "Hosting a Mapathon"
+        url: /hosting-a-mapathon/
+      - name: "Training Materials & Checklists"
+        url: /training-checklists/
+      - name: "Statistics & Useful Links"
+        url: /statistics-links/
   - key: events_calendar
     name: Events Calendar
     url: /events/

@@ -56,11 +56,13 @@ h4,
 p,
 .title .title-description p,
 .content p,
-.page-post .post-header .post-description p {
+.page-post .post-header .post-description p,
+.content li {
   color: var(--color-primary-bg);
 }
 
-.content p {
+.content p,
+.content li {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -289,6 +291,13 @@ p,
 .htp-media {
   min-height: 24rem;
   position: relative;
+}
+
+.column-image {
+  background-size: cover;
+  background-position: center;
+  min-height: 10rem;
+  height: 100%;
 }
 
 .credit-badge {

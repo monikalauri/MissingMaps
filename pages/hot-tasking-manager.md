@@ -9,7 +9,7 @@ description: |-
 
   The Tasking Manager allows many individuals to work simultaneously on the same area, ensuring projects can be completed quickly and efficiently through coordinated remote collaboration.
   And you can contribute too!
-image: "/assets/images/gen/content/content-5.webp"
+image: "assets/images/pages/validate.jpg"
 ---
 
 # First Steps
@@ -44,13 +44,7 @@ Roads are also one of the most useful things you can add to OpenStreetMap! Learn
 {% include framework/button.html text="HOT Learning Guide" url="https://tasks.hotosm.org/learn/map" external=true outline="true" %}
 </div>
 
-# Start Mapping
-
-Ready to try it yourself?
-
-<div>
-{% include framework/button.html text="Map Now" url="https://tasks.hotosm.org/" external=true %}
-</div>
+{% include framework/shortcodes/column-with-image.html heading="Start Mapping" text="Ready to try it yourself?" button_url="https://tasks.hotosm.org/" button_text="Map Now" button_external=true image="assets/images/pages/validate.jpg" %}
 
 ## More Training Resources
 If you’re interested in a more detailed training, check out these webinars:

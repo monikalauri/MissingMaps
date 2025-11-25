@@ -1,0 +1,10 @@
+<div class="d-flex flex-wrap gap-1 gap-md-2">
+  {% for btn in include.buttons %}
+  {% include framework/button.html
+  text=btn.label
+  url=btn.url
+  external=btn.external
+  outline=btn.outline
+  %}
+  {% endfor %}
+</div>
