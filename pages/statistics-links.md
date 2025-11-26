@@ -2,7 +2,7 @@
 layout: basic
 title: "Mapathon Statistics"
 permalink: "/statistics-links/"
-image: "assets/images/pages/validate.jpg"
+image: "assets/images/pages/Statistics.jpg"
 ---
 ## ohsome Now Stats 
 Curious how many buildings you mapped during your last mapathon? Or how many kilometers of roads were added in Africa last year? You can explore these stats and more on **ohsomeNow Stats**.

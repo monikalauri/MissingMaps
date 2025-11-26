@@ -5,7 +5,7 @@ permalink: "/hosting-a-mapathon/"
 description: |-
   A mapathon is a great opportunity for volunteers to digitally connect and create urgently needed data for communities around the world. Local and international decision-makers use these maps and data to respond more effectively to crises affecting these areas.
 
-image: "assets/images/pages/validate.jpg"
+image: "assets/images/pages/Hosting-a-Mapathon.jpg"
 ---
 
 Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities. 
@@ -26,7 +26,7 @@ Organizing a MapSwipe event is a simple, yet powerful way to make an impact. Thi
 {% include framework/shortcodes/column-with-image.html 
 heading="Resources to Get You Started" 
 text="Make your mapathon a success by exploring the [training materials and checklists](/training-checklists/)"
-image="assets/images/pages/validate.jpg" 
+image="assets/images/pages/Hosting-a-Mapathon-(backup).jpg" 
 color="peach" %}
 
 # Register your event

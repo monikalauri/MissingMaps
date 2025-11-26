@@ -7,7 +7,7 @@ description: |-
   
   MapSwipe harnesses the collective strength of volunteers to actively contribute to geospatial data projects. From identifying infrastructure to tracking environmental changes and validating map data, MapSwipers help improve map data across the world.
 
-image: "assets/images/pages/validate.jpg"
+image: "assets/images/pages/mapswipe-logo.png"
 
 button_row:
   - label: "MAPSWIPE Website"
@@ -26,8 +26,6 @@ button_row:
 ---
 
 # Efficient around the world mapping
-
-{% include framework/shortcodes/figure.html src="assets/images/pages/mapswipe-logo.png" alt="MapSwipe Logo" link="https://mapswipe.org/" target="_blank" %}
 
 MapSwipe is an open-source mobile and web app that is making mapping around the world more coordinated and efficient. Volunteers swipe through imagery in several different project types, each designed to meet specific mapping needs.
 

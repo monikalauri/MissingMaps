@@ -9,7 +9,7 @@ description: |-
   
   The goal is not just data - it’s about representing the voices of people who live in these places and making sure the map reflects their reality.
 
-image: "assets/images/pages/validate.jpg"
+image: "assets/images/pages/Field-Mapping.jpg"
 
 ---
 
