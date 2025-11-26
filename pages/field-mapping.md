@@ -10,7 +10,7 @@ description: |-
   The goal is not just data - it’s about representing the voices of people who live in these places and making sure the map reflects their reality.
 
 image: "assets/images/pages/Field-Mapping.jpg"
-
+image_credit: "Maria Jimena Henao Salgado, Universidad Nacional de Colombia, taken in Cartagena, Colombia"
 ---
 
 ## Before You Start

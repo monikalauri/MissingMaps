@@ -44,7 +44,7 @@ Roads are also one of the most useful things you can add to OpenStreetMap! Learn
 {% include framework/button.html text="HOT Learning Guide" url="https://tasks.hotosm.org/learn/map" external=true outline="true" %}
 </div>
 
-{% include framework/shortcodes/column-with-image.html heading="Start Mapping" text="Ready to try it yourself?" button_url="https://tasks.hotosm.org/" button_text="Map Now" button_external=true image="assets/images/pages/Training-Materials-(backup).jpg" %}
+{% include framework/shortcodes/column-with-image.html heading="Start Mapping" text="Ready to try it yourself?" button_url="https://tasks.hotosm.org/" button_text="Map Now" button_external=true image="assets/images/pages/Training-Materials-(backup).jpg" image_credit="Edgar Lima / MSF" %}
 
 ## More Training Resources
 If you’re interested in a more detailed training, check out these webinars:

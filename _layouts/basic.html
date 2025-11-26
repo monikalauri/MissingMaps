@@ -8,8 +8,13 @@ body_classes: page-basic
     <div class="row justify-content-center">
       {% if page.image and page.image != "" %}
         <div class="col-12">
-          <div class="title-image rounded-3">
+          <div class="title-image rounded-3 overflow-hidden">
             <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
+            {%- if page.image_credit -%}
+              <div class="credit-badge">
+                <span>{{ page.image_credit }}</span>
+              </div>
+            {%- endif -%}
           </div>
         </div>
       {% endif %}

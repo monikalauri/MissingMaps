@@ -5,6 +5,7 @@
 {% assign button_external=include.button_external %}
 {% assign image=include.image %}
 {% assign color=include.color | default: "blue" %}
+{% assign image_credit=include.image_credit %}
 
 <div class="row htp-card--{{color}} p-1 align-items-stretch rounded-4 mt-8 mb-8">
   <div class="col-12 col-md-6 d-flex flex-column justify-content-between p-2 pe-md-5">
@@ -22,6 +23,11 @@
   </div>
   <div class="col-12 col-md-6">
     <div class="column-image rounded-3 position-relative" style="background-image: url('{{ image | relative_url }}');">
+    {%- if image_credit -%}
+    <div class="credit-badge">
+      <span>{{ image_credit }}</span>
+    </div>
+    {%- endif -%}
     </div>
   </div>
 </div>

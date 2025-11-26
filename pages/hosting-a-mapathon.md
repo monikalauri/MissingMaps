@@ -6,6 +6,7 @@ description: |-
   A mapathon is a great opportunity for volunteers to digitally connect and create urgently needed data for communities around the world. Local and international decision-makers use these maps and data to respond more effectively to crises affecting these areas.
 
 image: "assets/images/pages/Hosting-a-Mapathon.jpg"
+image_credit: "Barbara Sigge / MSF Statistics"
 ---
 
 Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities. 
