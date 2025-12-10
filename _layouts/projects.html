@@ -1,0 +1,46 @@
+---
+layout: default
+body_classes: page-blog
+---
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit = page.image_credit
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-12">
+        <div class="row">
+          {% assign projects = site.projects %}
+
+          {% for project in projects %}
+          <div class="col-12 col-lg-4 mb-3">
+            {% include theme/cards/card-post.html
+            title=project.title
+            date=project.date
+            description=project.excerpt
+            thumbnail=project.banner
+            image=project.banner
+            url=project.url
+            categories=false
+            show_read_more=false
+            %}
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

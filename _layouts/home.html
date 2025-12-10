@@ -55,7 +55,7 @@ body_classes: page-home
       <!-- Card 2 -->
       <div class="col-12 col-md-4">
         <article class="hww-card hww-card--peach">
-          <div class="hww-step">STEP 2</div>
+          <div class="hww-step small-info-text">STEP 2</div>
           <div class="hww-illustration" aria-hidden="true">
             <img src="{{ page.step_2_image | relative_url }}" alt="">
           </div>
@@ -67,7 +67,7 @@ body_classes: page-home
       <!-- Card 3 -->
       <div class="col-12 col-md-4">
         <article class="hww-card hww-card--green">
-          <div class="hww-step">STEP 3</div>
+          <div class="hww-step small-info-text">STEP 3</div>
           <div class="hww-illustration" aria-hidden="true">
             <img src="{{ page.step_3_image | relative_url }}" alt="">
           </div>
@@ -244,7 +244,7 @@ body_classes: page-home
 </div>
 <div class="section home-blog bg-base-bg-2 pt-0">
   <div class="container">
-    <div class="row">
+    <div class="row g-1">
 
       {% for card in cards limit: limit %}
 
@@ -293,7 +293,7 @@ body_classes: page-home
           {{ page.projects_sub_heading }}
         </div>
         {% if page.projects_button_url %}
-        <a class="button btn-dark btn-white-arrow" href="{{ page.posts_button_url | relative_url }}">{{ page.projects_button_label }}</a>
+        <a class="button btn-dark btn-white-arrow" href="{{ page.projects_button_url | relative_url }}">{{ page.projects_button_label }}</a>
         {% endif %}
       </div>
       <div class="col-12 col-md-6">

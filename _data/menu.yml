@@ -10,7 +10,7 @@ main:
       - name: "Field Mapping"
         url: /field-mapping/
       - name: "Current Projects"
-        url: /current-projects/
+        url: /projects/
   - key: organize_event
     name: Organize an Event
     weight: 2

@@ -1,6 +1,6 @@
 {%- comment -%}
 Params:
-- item: object with keys { title, url, thumbnail, description }
+- item: object with keys { title, url, date, banner, excerpt }
 Optional: item.read_more_label
 {%- endcomment -%}
 
@@ -10,7 +10,7 @@ Optional: item.read_more_label
 <div class="card card-post card-column card-has-thumbnail project-card">
 
   <div class="card-thumbnail">
-    <a href="{{ p.url | relative_url }}"><img alt="{{ p.title }}" src="{{ p.thumbnail | relative_url }}" /></a>
+    <a href="{{ p.url | relative_url }}"><img alt="{{ p.title }}" src="{{ p.banner }}" /></a>
   </div>
 
   <div class="card-content">
@@ -20,9 +20,9 @@ Optional: item.read_more_label
       </h3>
     </div>
 
-    {% if p.description %}
+    {% if p.excerpt %}
     <div class="card-description">
-      <p>{{ p.description }}</p>
+      <p>{{ p.excerpt }}</p>
     </div>
     {% endif %}
 

@@ -39,9 +39,9 @@ participate_1_buttons:
   - label: "Join a Mapathon"
     url: "/events/"
   - label: "Tasking Manager"
-    url: "https://tasks.hotosm.org/"
+    url: "/hot-tasking-manager/"
   - label: "MapSwipe"
-    url: "https://mapswipe.org/"
+    url: "/mapswipe/"
 
 participate_2_title: "Organise a mapathon"
 participate_2_text: "Organising mapathons is a fantastic way to build a community of mappers. It is also a great learning environment, where new mappers can learn from the experiences of others while contributing to a shared goal. Mapathons are organised by groups and individuals all over the world."

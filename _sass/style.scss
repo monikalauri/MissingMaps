@@ -117,9 +117,11 @@ p,
   background-color: var(--color-base-bg-4);
 }
 
+/*
 .row {
   --bs-gutter-x: 15px;
 }
+*/
 
 .button {
   font-size: 0.875rem;
@@ -559,4 +561,18 @@ p,
   li.ellipsis span {
     color: var(--color-primary-bg) !important;
   }
+}
+
+.page-nav {
+  list-style: none !important;
+  margin: unset !important;
+
+  li {
+    margin-left: unset;
+  }
+}
+
+[id] {
+  scroll-margin-top: 80px;
+  /* adjust to your navbar height */
 }
