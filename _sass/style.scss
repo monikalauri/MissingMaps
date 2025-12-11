@@ -576,3 +576,42 @@ p,
   scroll-margin-top: 80px;
   /* adjust to your navbar height */
 }
+
+.events {
+  a {
+    text-decoration: none;
+  }
+}
+
+.event {
+  padding: 30px;
+  border: 1px solid var(--color-base-bg-4);
+  border-radius: 1rem;
+
+  p {
+    margin-bottom: unset;
+  }
+
+  .location {
+    color: var(--color-base-text-2);
+    font-weight: 500;
+    font-size: 0.8rem;
+  }
+}
+
+.event:has(.location) .date {
+  margin-bottom: 0.5rem;
+}
+
+.event-search {
+  min-width: 450px;
+  font-size: 0.875rem;
+  padding: 0.625rem 1rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+}
+
+.event:hover {
+  background-color: #FDEED7;
+  border-color: #FDEED7;
+}

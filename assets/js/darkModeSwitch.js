@@ -1,3 +1,4 @@
+/*
 const darkModeSwitches = document.querySelectorAll(".dark-mode-switch");
 
 if (darkModeSwitches) {
@@ -41,3 +42,5 @@ function initDarkMode() {
 }
 
 initDarkMode();
+
+*/

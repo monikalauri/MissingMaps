@@ -1,3 +1,7 @@
+// assets/js/fetch-osmcal-events.js
+// Fetch Missing Maps / Mapathon events from osmcal.org
+// and save them into the root _data/osmcal.json for Jekyll.
+
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -38,8 +42,8 @@ async function fetchOsmcalEvents() {
       events: filteredEvents
     };
 
-    // Save into _data for Jekyll
-    const dataDir = path.join(__dirname, '..', '_data');
+    // Save into ROOT _data for Jekyll (from assets/js → ../.. → repo root → _data)
+    const dataDir = path.join(__dirname, '..', '..', '_data');
     if (!fs.existsSync(dataDir)) {
       fs.mkdirSync(dataDir, { recursive: true });
     }
@@ -49,11 +53,13 @@ async function fetchOsmcalEvents() {
     console.log(`Saved events to ${outputPath}`);
   } catch (err) {
     console.error('Error fetching events from osmcal:', err);
-    // still create a minimal file so Jekyll build doesn't break
-    const dataDir = path.join(__dirname, '..', '_data');
+
+    // Still create a minimal file so Jekyll build doesn't break
+    const dataDir = path.join(__dirname, '..', '..', '_data');
     if (!fs.existsSync(dataDir)) {
       fs.mkdirSync(dataDir, { recursive: true });
     }
+
     const outputPath = path.join(dataDir, 'osmcal.json');
     const fallback = {
       buildTime: new Date().toISOString(),
@@ -62,11 +68,11 @@ async function fetchOsmcalEvents() {
       error: err.message
     };
     fs.writeFileSync(outputPath, JSON.stringify(fallback, null, 2));
+    console.log(`Wrote fallback osmcal.json to ${outputPath}`);
   }
 }
 
-if (import.meta.main) {
-  fetchOsmcalEvents();
-}
-
-export default fetchOsmcalEvents;
+// Always run when this file is executed with `node`
+fetchOsmcalEvents().catch(err => {
+  console.error('Unhandled error in fetchOsmcalEvents:', err);
+});
