@@ -32,7 +32,7 @@ If the page has extra content, render it above the events list (same as basic.ht
 <div class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-10">
+      <div class="col-12 col-lg-10">
         <div class="content">{{ content }}</div>
       </div>
     </div>
@@ -51,14 +51,14 @@ Events section (pre-rendered from _data/osmcal.json) + client-side search
     {% assign events = site.data.osmcal.events | default: empty_array %}
         
       {% if events.size == 0 %}
-      <div class="col-10 content pt-4">
+      <div class="col-12 col-lg-10 content pt-4">
         <h3>{{ page.not_found }}</h3>
       </div>
     </div> <!-- Close row if --> 
 
     {% else %}
 
-      <div class="col-10">
+      <div class="col-12 col-lg-10">
         <h2>{{ page.upcoming }}</h2>
         <div class="pt-2">
           <p>
