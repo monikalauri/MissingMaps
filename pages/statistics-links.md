@@ -8,7 +8,7 @@ image: "assets/images/pages/Statistics.jpg"
 Curious how many buildings you mapped during your last mapathon? Or how many kilometers of roads were added in Africa last year? You can explore these stats and more on **ohsomeNow Stats**.
 
 <div>
-{% include framework/button.html text="ohSome Stats" url="https://stats.now.ohsome.org/dashboard#hashtag=missingmaps&start=2005-04-09T20:54:39Z&end=2025-09-01T13:34:16Z&interval=P1M&active_topic=contributor&countries=&topics=contributor,edit,building,road" external=true outline="true" %}
+{% include framework/button.html text="ohsomeNow Stats" url="https://stats.now.ohsome.org/dashboard#hashtag=missingmaps&start=2005-04-09T20:54:39Z&end=2025-09-01T13:34:16Z&interval=P1M&active_topic=contributor&countries=&topics=contributor,edit,building,road" external=true outline="true" %}
 </div>
 
 ## Mapathon Dashboard 

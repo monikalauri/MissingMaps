@@ -6,32 +6,29 @@
 {% assign image=include.image %}
 {% assign color=include.color | default: "blue" %}
 {% assign image_credit=include.image_credit %}
-<div class="row">
-  <div class="col-12">
-    <div class="htp-card--{{color}} p-1 rounded-4">
-      <div class="row align-items-stretch">
-        <div class="col-12 col-md-6 d-flex flex-column justify-content-between p-2 pe-md-5">
-          <div>
-            <h3 class="mb-3">{{ heading }}</h3>
-            <div class="mb-3">
-              <p>{{ text | markdownify }}</p>
-            </div>
-          </div>
+
+<div class="htp-card--{{color}} p-1 rounded-4 column-with-img">
+  <div class="row align-items-stretch">
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-between p-2 pe-md-5 content h-100">
+      
+        <h3 class="mb-3">{{ heading }}</h3>
+        <div>
+          <p>{{ text | markdownify }}</p>
           {%- if button_text -%}
-          <div>
+          <div class="pt-3">
             {% include framework/button.html text=button_text url=button_url external=button_external %}
           </div>
           {%- endif -%}
         </div>
-        <div class="col-12 col-md-6">
-          <div class="column-image rounded-3 position-relative" style="background-image: url('{{ image | relative_url }}');">
-            {%- if image_credit -%}
-            <div class="credit-badge">
-              <span>{{ image_credit }}</span>
-            </div>
-            {%- endif -%}
-          </div>
+      
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="column-image rounded-3 position-relative" style="background-image: url('{{ image | relative_url }}');">
+        {%- if image_credit -%}
+        <div class="credit-badge">
+          <span>{{ image_credit }}</span>
         </div>
+        {%- endif -%}
       </div>
     </div>
   </div>

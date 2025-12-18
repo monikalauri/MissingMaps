@@ -2,37 +2,22 @@
 layout: default
 body_classes: page-basic page-events
 ---
-
-<div class="section pb-0">
+<div class="section">
   <div class="container">
-    <div class="row justify-content-center">
-      {% if page.image and page.image != "" %}
+    <div class="row">
       <div class="col-12">
-        <div class="title-image rounded-3 overflow-hidden">
-          <img {% if page.title %} alt="{{ page.title }}" {% endif %} src="{{ page.image | relative_url }}" />
-          {%- if page.image_credit -%}
-          <div class="credit-badge">
-            <span>{{ page.image_credit }}</span>
-          </div>
-          {%- endif -%}
-        </div>
+        {% include framework/default-header.html
+        title=page.title
+        description=page.description
+        image=page.image
+        image_credit = page.image_credit
+        %}
       </div>
-      {% endif %}
-      <div class="col-12 mt-4">
-        <div class="title">
-
-          {% if page.title %}
-          <div class="title-heading">
-            <h1>{{ page.title }}</h1>
-          </div>
-          {% endif %}
-
-          {% if page.description %}
-          <div class="title-description">
-            <p>{{ page.description | markdownify }}</p>
-          </div>
-          {% endif %}
-
+    </div>
+    <div class="row justify-content-center mt-4 mb-4">
+      <div class="col-12 col-lg-10 ">
+        <div class="content">
+          {% include framework/button-group.html buttons=page.buttons %}
         </div>
       </div>
     </div>
@@ -47,7 +32,7 @@ If the page has extra content, render it above the events list (same as basic.ht
 <div class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12">
+      <div class="col-10">
         <div class="content">{{ content }}</div>
       </div>
     </div>
@@ -59,71 +44,76 @@ If the page has extra content, render it above the events list (same as basic.ht
 Events section (pre-rendered from _data/osmcal.json) + client-side search
 {%- endcomment -%}
 <div class="section pt-0">
-  <div class="container justify-content-center">
-        <h2>{{ page.upcoming }}</h2>
-        {% assign empty_array = "" | split: "" %}
-        {% assign events = site.data.osmcal.events | default: empty_array %}
+  <div class="container">
+    <div class="row justify-content-center">
+  
+    {% assign empty_array = "" | split: "" %}
+    {% assign events = site.data.osmcal.events | default: empty_array %}
         
-        {% if events.size == 0 %}
-        <div class="content pt-4">
-          <h3>{{ page.not_found }}</h3>
-        </div>
-
-        {% else %}
-        <div class="row">
-          <div class="col-12 col-lg-12 pt-2">
-        
-            <!-- Search -->
-            <input id="q" type="search" class="event-search" placeholder="{{ page.search_placeholder }}" aria-label="Search events">
-
-            <p class="pt-2">
-              {% assign updated = site.data.osmcal.buildTime | date: "%B %-d, %Y" %}
-              {{ page.last_update }} {{ updated }}
-            </p>
-          </div>
-        </div>
-        
-        <div class="row events pt-8">
-
-        {% for ev in events %}
-
-        {% assign name = ev.name | default: "Untitled event" %}
-        {% assign url = ev.url | default: "#" %}
-        {% assign date_human = ev.date.human | default: "Date: TBA" %}
-        
-        <div class="col-12 col-lg-6 mb-3">
-          <a href="{{ url }}" target="_blank" rel="noopener">
-          <div class="event content">
-            <h3>
-              {{ name }}
-              {% if ev.cancelled %}
-              <span
-                style="font-size:.8em; padding:.1em .4em; border:1px solid #c00; color:#c00; border-radius:.25em; margin-left:.5em;">
-                Cancelled
-              </span>
-              {% endif %}
-            </h3>
-            <p class="date">
-              {{ date_human }}
-            </p>
-            {% if ev.location %}
-            <p class="location">
-              {{ ev.location.short }}
-            </p>
-              {% if ev.location.detailed %}
-              <p class="location">
-                {{ ev.location.detailed }}
-              </p>
-              {% endif %}
-            {% endif %}
-          </div>
-         </a>
-        </div>
-
-        {% endfor %}
-        </div>
-        {% endif %}
+      {% if events.size == 0 %}
+      <div class="col-10 content pt-4">
+        <h3>{{ page.not_found }}</h3>
       </div>
+    </div> <!-- Close row if --> 
+
+    {% else %}
+
+      <div class="col-10">
+        <h2>{{ page.upcoming }}</h2>
+        <div class="pt-2">
+          <p>
+            {% assign updated = site.data.osmcal.buildTime | date: "%B %-d, %Y" %}
+            {{ page.last_update }} {{ updated }}
+          </p>
+        </div>
+      </div>
+    </div> <!-- Close row else -->
+        
+    <div class="row justify-content-center events pt-3">
+      <div class="col-12 col-lg-10">
+        <div class="row events align-items-stretch">
+          {% for ev in events %}
+          
+          {% assign name = ev.name | default: "Untitled event" %}
+          {% assign url = ev.url | default: "#" %}
+          {% assign date_human = ev.date.human | default: "Date: TBA" %}
+          
+          <div class="col-12 col-lg-6 mb-3 d-flex flex-column">
+            <a href="{{ url }}" target="_blank" rel="noopener" class="h-100">
+              <div class="event content h-100">
+                <h3>
+                  {{ name }}
+                  {% if ev.cancelled %}
+                  <span
+                    style="font-size:.8em; padding:.1em .4em; border:1px solid #c00; color:#c00; border-radius:.25em; margin-left:.5em;">
+                    Cancelled
+                  </span>
+                  {% endif %}
+                </h3>
+                <p class="date">
+                  {{ date_human }}
+                </p>
+                {% if ev.location %}
+                <p class="location">
+                  {{ ev.location.short }}
+                </p>
+                {% if ev.location.detailed %}
+                <p class="location">
+                  {{ ev.location.detailed }}
+                </p>
+                {% endif %}
+                {% endif %}
+              </div>
+            </a>
+          </div>
+          
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% endif %}
+  </div>
 
         <!-- List 
         <ul id="events" style="list-style:none; padding:0; margin:0;">
@@ -174,39 +164,3 @@ Events section (pre-rendered from _data/osmcal.json) + client-side search
     </div>
   </div>
 </div>
-
-<script>
-  (() => {
-    const list = document.getElementById('events');
-    const q = document.getElementById('q');
-    if (!list || !q) return;
-
-    const items = Array.from(list.querySelectorAll('.event'));
-
-    function apply() {
-      const t = (q.value || '').trim().toLowerCase();
-      let shown = 0;
-      items.forEach(li => {
-        const match = !t || li.dataset.name.includes(t);
-        li.style.display = match ? '' : 'none';
-        if (match) shown++;
-      });
-
-      let nr = list.querySelector('.no-results');
-      if (!shown) {
-        if (!nr) {
-          nr = document.createElement('li');
-          nr.className = 'no-results';
-          nr.textContent = 'No events match your search.';
-          nr.style.padding = '1rem 0';
-          list.appendChild(nr);
-        }
-      } else if (nr) {
-        nr.remove();
-      }
-    }
-
-    q.addEventListener('input', apply);
-    apply();
-  })();
-</script>

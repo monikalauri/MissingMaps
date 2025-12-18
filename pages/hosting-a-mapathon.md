@@ -1,5 +1,5 @@
 ---
-layout: basic
+layout: hosting-a-mapathon
 title: "Hosting a Mapathon"
 permalink: "/hosting-a-mapathon/"
 description: |-
@@ -7,7 +7,68 @@ description: |-
 
 image: "assets/images/pages/Hosting-a-Mapathon.jpg"
 image_credit: "Barbara Sigge / MSF Statistics"
+
+# ---- Copy ----
+intro: |-
+  Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities.
+
+  Check out the videos below to learn more:
+
+video_1_title: "What is a mapathon?"
+video_1_id: "pAcsCmvG2hs"
+
+video_2_title: "Hosting a Mapathon"
+video_2_id: "njxePdKn1pI"
+
+mapswipe_heading: "Organize a MapSwipe Event"
+mapswipe_body: |-
+  Organizing a MapSwipe event is a simple, yet powerful way to make an impact. Thinking about bringing people to MapSwipe together? Start with the [MapSwipe Event Toolkit]([[MAPSWIPE_TOOLKIT_URL]]) and MapSwipe event [FAQs]([[MAPSWIPE_FAQ_URL]]).
+
+mapswipe_image: "assets/images/pages/mapswipe.jpg"
+resources_heading: "Resources to Get You Started"
+resources_text: |-
+  Make your mapathon a success by exploring the [training materials and checklists](/training-checklists/).
+
+resources_image: "assets/images/pages/Hosting-a-Mapathon-(backup).jpg"
+resources_color: "peach"
+
+register_heading: "Register your event"
+register_body: |-
+  Are you organizing a Missing Maps event? Register your mapathon to let others know and make your event visible to the community!
+
+  **How to register:**
+
+  1. Click on the [“Register Your Event”]([[REGISTER_URL]]) button
+  2. Include “**Missing Maps**” or “**Mapathon**” in the event name (e.g., “January Missing Maps Mapathon in Prague”)
+  3. Fill out all the other details and **Save Event**
+
+  Your event should appear in a few moments on [OSMCal]([[OSMCAL_URL]]) and on the [Events Calendar]([[EVENTS_URL]]) on the **Missing Maps Website**!
+
+register_button_text: "Register your event"
+
+large_heading: "Hosting a large event?"
+large_body: |-
+  We love to welcome new mappers to Missing Maps, but it is important to remember we are part of a much larger OpenStreetMap (OSM) community. The data produced in OSM, whether by us or other mappers, is used in real time. Therefore, it is important that we properly support these new mappers.
+
+tips_heading: "Tips for first-time hosts:"
+tips:
+  - "Start small: 20–25 participants is ideal for your first mapathon."
+  - "Build your training capacity before organizing larger events."
+  - "For events of 50+ participants, contact [info@hotosm.org]([[INFO_EMAIL]])."
+  - "If you want to host a large group without extensive training, consider a [MapSwipe event]([[MAPSWIPE_PAGE]]), which is easier to manage responsibly and great for those new to the Missing Maps project."
+
+# ---- Links (translators don’t touch these) ----
+mapswipe_toolkit_url: "https://drive.google.com/drive/folders/1j5XnyqI_LKYBCg9oJaaWIKbsBxwB8Cld?usp=drive_link"
+mapswipe_faq_url: "https://wiki.openstreetmap.org/wiki/MapSwipe_event_FAQ"
+training_checklists_url: "/training-checklists/"
+register_url: "https://osmcal.org/event/add/"
+osmcal_url: "https://osmcal.org/"
+events_url: "/events/"
+info_email: "mailto:info@hotosm.org"
+mapswipe_page: "/mapswipe/"
 ---
+
+*------- Remove this once approved -------* 
 
 Up-to-date maps are important for the success of many humanitarian initiatives around the world in responding to disasters. Through Missing Maps, you can volunteer your time to help inform these maps, and have a real impact on the delivery of healthcare and other services in these communities. 
 

@@ -39,7 +39,7 @@ A variety of open-source tools can support field data collection:
 
 - **[OpenDroneMap](https://www.opendronemap.org/) & [OpenAerialMap](https://openaerialmap.org/)** – Platforms for collecting and sharing aerial imagery to complement field surveys.
 
-- **[Field Tasking Manager](https://www.hotosm.org/updates/field-mapping-tasking-manager-fmtm/)** – Plan and organize mapping tasks, assign work to volunteers, track progress, and coordinate larger mapping projects. Works hand-in-hand with SMT and other field tool.
+- **[Field Tasking Manager](https://fmtm.hotosm.org)** – Plan and organize mapping tasks, assign work to volunteers, track progress, and coordinate larger mapping projects. Works hand-in-hand with SMT and other field tool.
 
 - **[Drone Tasking Manager](https://dronetm.org/)** – Similar to FTM, but specifically designed to coordinate aerial imagery collection using drones. Helps plan drone flights, manage coverage, and integrate captured imagery with mapping projects.
 

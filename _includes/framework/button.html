@@ -7,6 +7,8 @@
 {% assign fa_icon=include.fa_icon %}
 {% assign outline=include.outline %}
 {% assign rounded=include.rounded %}
+{% assign svg_icon = include.svg_icon %}
+
 
 {% capture button_style %}
   mr-1 button
@@ -20,5 +22,13 @@
 {% endcapture %}
 
 <a href="{% if external %}{{url}}{% else %}{{url | relative_url }}{% endif %}" {% if external %}target="_blank" rel="noopener"{% endif %} class="{{ button_style}}">
-  {{ text }}{% if fa_icon %}<i class="{{ fa_icon}} ml-1"></i>{% endif %}
+  {{ text }}
+
+  {% if fa_icon %}
+  <i class="{{ fa_icon}} ml-1"></i>
+  {% endif %}
+
+  {% if svg_icon %}
+  {% include {{ svg_icon }} %}
+  {% endif %}
 </a>

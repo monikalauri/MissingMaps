@@ -56,6 +56,15 @@ body_classes: page-blog
         </div>
       </div>
       {% endif %}
+      <div class="row justify-content-center pt-2">
+        <div class="col-auto feed-link">
+          <a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+            <span>RSS Feed</span>
+            <i class="fas fa-feed"></i>
+          </a>
+        </div>
+      </div>
+      </div>
   </div>
 </div>
 
