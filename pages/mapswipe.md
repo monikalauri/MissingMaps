@@ -73,14 +73,3 @@ support_image: "assets/images/pages/validate.jpg"
 support_color: "green"
 
 ---
-
-
-## Organize a MapSwipe Event
-Organizing a MapSwipe event is a simple, yet powerful way to make an impact.
-
-Thinking about bringing people to MapSwipe together? Start with the [MapSwipe Event Toolkit](https://drive.google.com/drive/folders/1j5XnyqI_LKYBCg9oJaaWIKbsBxwB8Cld?usp=drive_link) and MapSwipe event [FAQs](https://wiki.openstreetmap.org/wiki/MapSwipe_event_FAQ).
-
-{% include framework/shortcodes/column-with-image.html heading="Support MapSwipe" text="Want to help keep MapSwipe running smoothly? 
-
-Your donation will help ensure smooth operation, sustainability and maintenance of the mobile and web apps." button_url="https://opencollective.com/mapswipe#category-CONTRIBUTE" button_text="Donate Now" button_external=true image="assets/images/pages/validate.jpg" color="green" %}
-
