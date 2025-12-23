@@ -438,7 +438,7 @@ p,
     position: fixed;
     inset: 0;
     /* top/right/bottom/left: 0 */
-    height: 100svh;
+    height: 100vh;
     /* better on iOS than 100vh */
     display: flex;
     flex-direction: column;
