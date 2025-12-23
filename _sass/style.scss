@@ -445,6 +445,10 @@ p,
     padding-top: env(safe-area-inset-top, 0);
     padding-bottom: env(safe-area-inset-bottom, 0);
 
+    ul {
+      font-size: 1rem;
+    }
+
     i {
       display: inline-block;
       font-size: 15px;
@@ -452,14 +456,14 @@ p,
     }
 
     .menu>li {
-      margin-top: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+      font-size: 1.25rem;
     }
 
     .sub-menu {
 
       a {
-        font-size: 18px !important;
+        font-size: 0.875rem !important;
         padding: 5px 40px !important;
       }
     }
@@ -497,7 +501,7 @@ p,
   .menu-main-mobile ul li a {
     display: inline-block;
     /* size to text + padding */
-    padding: 10px 30px;
+    padding: 8px 30px;
   }
 
   .menu-lang-switcher {
