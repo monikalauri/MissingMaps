@@ -423,15 +423,25 @@ p,
 
   }
 
+  .dropdown-menu .dropdown-item {
+    padding: 8px 16px;
+  }
+
   .menu-lang-switcher:hover .dropdown-menu {
     width: inherit !important;
     min-width: unset;
     margin-left: 0.5rem;
     top: 45px;
-  }
+    padding: 0 16px;
 
-  .dropdown-menu .dropdown-item {
-    padding: 8px 16px;
+    /*
+    a {
+      padding: 6px 16px;
+    }
+*/
+    .dropdown-item-content:has(.active) {
+      display: none;
+    }
   }
 
   .menu-main-mobile {
