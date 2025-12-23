@@ -71,7 +71,7 @@ body_classes: page-basic
     </div>
   </div>
 </div>
-
+<!-- 
 <div class="section mt-0">
   <div class="container">
     <div class="row justify-content-center">
@@ -88,12 +88,49 @@ body_classes: page-basic
     </div>
   </div>
 </div>
+-->
+<div class="section mt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 content">
+        <h3> {{ page.resources_heading }}</h3>
+        {{ page.resources_text | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section mt-0 pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div id="register" class="col-12 col-lg-10">
+
+        {%- assign register_body = page.register_body
+        | replace: '[[REGISTER_URL]]', page.register_url
+        | replace: '[[OSMCAL_URL]]', page.osmcal_url
+        | replace: '[[EVENTS_URL]]', page.events_url
+        -%}
+
+        {% include framework/shortcodes/column-with-image.html
+        heading=page.register_heading
+        heading_size="h2"
+        text=page.register_body
+        button_text=page.register_button_text
+        button_url=page.register_button_url
+        image=page.resources_image
+        image_credit=page.resources_image_credit
+        color=page.resources_color
+        %}
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Register -->
 <div class="section pt-0">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-10 content">
+        <!-- 
         <h2 id="register">{{ page.register_heading }}</h2>
 
         {%- assign register_body = page.register_body
@@ -110,8 +147,8 @@ body_classes: page-basic
           external=true
           %}
         </div>
-
-        <h3 class="mt-4">{{ page.large_heading }}</h3>
+      -->
+        <h3>{{ page.large_heading }}</h3>
         {{ page.large_body | markdownify }}
 
         <h3 class="mt-4">{{ page.tips_heading }}</h3>

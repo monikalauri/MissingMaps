@@ -13,61 +13,61 @@
   </div>
 
   <div class="menu-main-mobile-center">
-    <!--
-    {% if site.menu.show_dropdown_items_in_mobile_menu %}
     <ul class="menu">
-      {% for item in site.data.menu.main %}
-      {% if item.child %}
-      <li class="menu-item-{{ item.name | downcase }}{% if item.url == page.url %} active{% endif %}">
-        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+  {% for item in items %}
+    {%- comment -%} translated label (fallback to original name) {%- endcomment -%}
+    {% assign label = T.nav_labels[item.key] | default: item.name %}
+
+    {%- comment -%} build href with language prefix for local paths {%- endcomment -%}
+    {% assign href = item.url %}
+    {% if href and href != "#" and href contains "://" %}
+      {# absolute URL: leave as is #}
+    {% elsif href == "#" %}
+      {# anchor #}
+    {% else %}
+      {% if lang != site.default_lang %}
+        {% assign href = '/' | append: lang | append: item.url %}
+      {% endif %}
+    {% endif %}
+
+    {%- comment -%} Dropdown parent item {%- endcomment -%}
+    {% if item.child and item.child != empty %}
+      <li class="menu-item-{{ item.key }} menu-item-dropdown{% if item.url == page.url %} active {% endif %}">
+        <a href="{{ href | relative_url }}">{{ label }}</a>
+
         <div class="dropdown">
           <ul class="sub-menu">
             {% for childitem in item.child %}
-            <li class="{% if childitem.url == page.url %} active {% endif %}">
-              <a href="{{ childitem.url | relative_url }}">{{ childitem.name }}</a>
-            </li>
+              {%- comment -%} translated child label (fallback) {%- endcomment -%}
+              {% assign child_label = T.nav_labels[childitem.key] | default: childitem.name %}
+
+              {%- comment -%} build child href with the same rules {%- endcomment -%}
+              {% assign child_href = childitem.url %}
+              {% if child_href and child_href != "#" and child_href contains "://" %}
+                {# absolute URL: leave as is #}
+              {% elsif child_href == "#" %}
+                {# anchor #}
+              {% else %}
+                {% if lang != site.default_lang %}
+                  {% assign child_href = '/' | append: lang | append: childitem.url %}
+                {% endif %}
+              {% endif %}
+
+              <li class="{% if childitem.url == page.url %} active {% endif %}">
+                <a href="{{ child_href | relative_url }}">{{ child_label }}</a>
+              </li>
             {% endfor %}
           </ul>
         </div>
       </li>
-      {% else %}
-      {% if item.url == page.url %}
-      {% assign active = true %}
-      {% else %}
-      {% assign active = nil %}
-      {% endif %}
-      <li class="{% if item.url == page.url %}active{% endif %}">
-        <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-    {% else %}
-  -->
-    <ul class="menu">
-    {% for item in items %}
-    {% comment %} translated label (fallback to original name) {% endcomment %}
-    {% assign label = T.nav_labels[item.key] | default: item.name %}
 
-    {% comment %} build href with language prefix for local paths {% endcomment %}
-    {% assign href = item.url %}
-    {% if href and href != "#" and href contains "://" %}
-    {# absolute URL: leave as is #}
-    {% elsif href == "#" %}
-    {# anchor #}
+    {%- comment -%} Normal single item {%- endcomment -%}
     {% else %}
-    {% if lang != site.default_lang %}
-    {% assign href = '/' | append: lang | append: item.url %}
-    {% endif %}
-    {% endif %}
       <li class="menu-item-{{ item.key }}{% if item.url == page.url %} active {% endif %}">
         <a href="{{ href | relative_url }}">{{ label }}</a>
       </li>
-      {% endfor %}
-    
-    <!--
     {% endif %}
-  -->
+  {% endfor %}
 
       <!-- Lang Switcher -->
       
