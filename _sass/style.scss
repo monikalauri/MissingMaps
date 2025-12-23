@@ -427,7 +427,7 @@ p,
     width: inherit !important;
     min-width: unset;
     margin-left: 0.5rem;
-    top: 60px;
+    top: 45px;
   }
 
   .dropdown-menu .dropdown-item {
@@ -476,7 +476,7 @@ p,
     display: flex;
     align-items: center;
     /* horizontal centering */
-    justify-content: center;
+    justify-content: flex-start;
     /* vertical centering   */
   }
 
