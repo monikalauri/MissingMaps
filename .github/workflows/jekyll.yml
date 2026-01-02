@@ -48,6 +48,14 @@ jobs:
           else
             echo "No package.json found, skipping OSMCal fetch."
           fi
+          
+      - name: Fetch contribution stats
+        run: |
+            if [ -f package.json ]; then
+              npm run fetch:contrib-stats
+            else
+              echo "No package.json found, skipping OSMCal fetch."
+            fi
 
       - name: Install dependencies
         run: bundle install --deployment --without development test
