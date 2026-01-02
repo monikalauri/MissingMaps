@@ -1,7 +1,17 @@
 // assets/js/fetch-contrib-stats.js
-// Debuggable fetch of Missing Maps contribution stats from osm-stats.
-// Writes ONLY 4 display-ready values into root _data/contrib_stats.json.
-// Logs ONLY errors by default; set DEBUG_CONTRIB=1 for detailed logs.
+// Fetch Missing Maps contribution stats from ohsomeNow stats endpoint
+// and save ONLY 4 display-ready values into root _data/contrib_stats.json.
+//
+// Output (exactly 4 keys):
+// {
+//   "total_contributors": "185K+",
+//   "total_edits": "105M+",
+//   "building_edits": "65M+",
+//   "roads_km": "1.19M"
+// }
+//
+// Logs ONLY errors by default.
+// Set DEBUG_CONTRIB=1 for detailed step-by-step logs.
 
 import fs from "fs";
 import path from "path";
@@ -12,13 +22,13 @@ const __dirname = path.dirname(__filename);
 
 const DEBUG = process.env.DEBUG_CONTRIB === "1";
 
+// -------- CONFIG --------
 const HASHTAG = process.env.OSM_STATS_HASHTAG || "missingmaps";
+const API_URL =
+  process.env.OHSOME_STATS_URL ||
+  `https://stats.now.ohsome.org/api/stats/${encodeURIComponent(HASHTAG)}`;
 
-// IMPORTANT: osm-stats endpoint is HTTP (not HTTPS)
-const OSMSTATS_BASE = process.env.OSMSTATS_BASE || "http://osm-stats-production-api.azurewebsites.net";
-const API_URL = `${OSMSTATS_BASE}/stats/${encodeURIComponent(HASHTAG)}`;
-
-// Save into ROOT _data (from assets/js → ../.. → repo root → _data)
+// Save into ROOT _data for Jekyll (from assets/js → ../.. → repo root → _data)
 const dataDir = path.join(__dirname, "..", "..", "_data");
 const outputPath = path.join(dataDir, "contrib_stats.json");
 
@@ -36,7 +46,8 @@ function writeJson(obj) {
   dlog("Wrote", outputPath);
 }
 
-// ---------- formatting ----------
+// -------- Formatting (language-neutral) --------
+// K/M/B + are pretty universal across EN/FR/ES/CS.
 function formatAbbrev(n) {
   const num = Number(n);
   if (!Number.isFinite(num)) return "—";
@@ -46,7 +57,8 @@ function formatAbbrev(n) {
   return `${Math.floor(num)}+`;
 }
 
-function formatRoadsKm(km) {
+// Roads are in km already (float). We format as 1.19M / 850.12K etc.
+function formatKm(km) {
   const num = Number(km);
   if (!Number.isFinite(num)) return "—";
   if (num >= 1_000_000) return `${(num / 1_000_000).toFixed(2)}M`;
@@ -54,49 +66,8 @@ function formatRoadsKm(km) {
   return `${num.toFixed(0)}`;
 }
 
-// ---------- normalization ----------
-function pick(obj, paths) {
-  for (const p of paths) {
-    const v = p.split(".").reduce((acc, k) => (acc ? acc[k] : undefined), obj);
-    if (typeof v === "number" && Number.isFinite(v)) return v;
-  }
-  return null;
-}
-
-function normalizeOsmStats(payload) {
-  // We print payload keys in debug mode so you can map them if needed.
-  dlog("Top-level keys:", Object.keys(payload).slice(0, 80));
-
-  const total_contributors = pick(payload, ["total_users", "totalUsers", "users", "contributors"]);
-  const total_edits = pick(payload, ["total_edits", "totalEdits", "edits"]);
-  const building_edits = pick(payload, ["building_edits", "buildingEdits", "buildings"]);
-  const roads_km = pick(payload, ["roads_km", "roadsKm", "roads", "road_km", "roadKm"]);
-
-  if (DEBUG) {
-    dlog("Picked raw numbers:", {
-      total_contributors,
-      total_edits,
-      building_edits,
-      roads_km,
-    });
-  }
-
-  const missing = [];
-  if (total_contributors == null) missing.push("total_contributors");
-  if (total_edits == null) missing.push("total_edits");
-  if (building_edits == null) missing.push("building_edits");
-  if (roads_km == null) missing.push("roads_km");
-
-  if (missing.length) {
-    throw new Error(`Normalization failed. Missing: ${missing.join(", ")}`);
-  }
-
-  return { total_contributors, total_edits, building_edits, roads_km };
-}
-
-// ---------- fetch with deep error info ----------
+// -------- Better error introspection for Node fetch --------
 function explainFetchError(err) {
-  // Node/undici often throws TypeError: fetch failed with nested cause
   const lines = [];
   lines.push(String(err?.message || err));
 
@@ -108,19 +79,17 @@ function explainFetchError(err) {
     if (err.cause?.port) lines.push(`cause.port: ${err.cause.port}`);
   }
 
-  // Some errors include codes on the top-level too
   if (err?.code) lines.push(`code: ${err.code}`);
   if (err?.errno) lines.push(`errno: ${err.errno}`);
 
   return lines.join("\n");
 }
 
-async function fetchJsonWithDebug(url) {
-  dlog("Fetching URL:", url);
+async function fetchJson(url) {
+  dlog("Fetching:", url);
 
   let res;
   try {
-    // Timeout using AbortController
     const controller = new AbortController();
     const t = setTimeout(() => controller.abort(), 15000);
 
@@ -131,11 +100,10 @@ async function fetchJsonWithDebug(url) {
 
     clearTimeout(t);
   } catch (err) {
-    // This is where your “fetch failed” currently happens
     throw new Error(`Fetch request error:\n${explainFetchError(err)}`);
   }
 
-  dlog("HTTP status:", res.status, res.statusText);
+  dlog("HTTP:", res.status, res.statusText);
 
   let text;
   try {
@@ -145,41 +113,62 @@ async function fetchJsonWithDebug(url) {
   }
 
   if (!res.ok) {
-    // Show a snippet of the response to understand if it’s HTML, proxy message, etc.
-    throw new Error(`HTTP error ${res.status} – ${url}\nBody (first 400 chars):\n${text.slice(0, 400)}`);
+    throw new Error(`HTTP error ${res.status}\nBody preview:\n${text.slice(0, 400)}`);
   }
 
-  // In debug mode, show a short preview (helps spot HTML instead of JSON)
-  dlog("Body preview:", text.slice(0, 180).replace(/\s+/g, " "));
+  dlog("Body preview:", text.slice(0, 160).replace(/\s+/g, " "));
 
   try {
     return JSON.parse(text);
   } catch (err) {
-    throw new Error(`JSON parse error: ${err.message}\nBody (first 400 chars):\n${text.slice(0, 400)}`);
+    throw new Error(`JSON parse error: ${err.message}\nBody preview:\n${text.slice(0, 400)}`);
   }
 }
 
-// ---------- main ----------
+// -------- Main --------
 async function run() {
   try {
-    const payload = await fetchJsonWithDebug(API_URL);
-    const raw = normalizeOsmStats(payload);
+    const payload = await fetchJson(API_URL);
+
+    // Expected shape:
+    // { result: { users, edits, buildings, roads, ... } } :contentReference[oaicite:1]{index=1}
+    const r = payload?.result;
+    if (!r || typeof r !== "object") {
+      throw new Error(`Unexpected response shape: missing 'result'`);
+    }
+
+    // Validate presence (numbers)
+    const users = Number(r.users);
+    const edits = Number(r.edits);
+    const buildings = Number(r.buildings);
+    const roads = Number(r.roads);
+
+    if (![users, edits, buildings, roads].every(Number.isFinite)) {
+      throw new Error(
+        `Missing/invalid metrics. Got: users=${r.users}, edits=${r.edits}, buildings=${r.buildings}, roads=${r.roads}`
+      );
+    }
+
+    if (DEBUG) {
+      dlog("Raw numbers:", { users, edits, buildings, roads });
+    }
 
     const out = {
-      total_contributors: formatAbbrev(raw.total_contributors),
-      total_edits: formatAbbrev(raw.total_edits),
-      building_edits: formatAbbrev(raw.building_edits),
-      roads_km: formatRoadsKm(raw.roads_km),
+      total_contributors: formatAbbrev(users),
+      total_edits: formatAbbrev(edits),
+      building_edits: formatAbbrev(buildings),
+      roads_km: formatKm(roads),
     };
 
     if (DEBUG) dlog("Formatted output:", out);
 
     writeJson(out);
   } catch (err) {
-    // Errors only by default; DEBUG gives more context because the thrown message includes details
+    // Errors only by default
     console.error("Error fetching contribution stats:");
     console.error(err?.message || err);
 
+    // Always write fallback so Jekyll renders predictably
     writeJson({
       total_contributors: "—",
       total_edits: "—",
