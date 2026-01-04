@@ -1,4 +1,5 @@
 ---
+lang: cs
 layout: basic
 title: "Statistiky mapathonů"
 permalink: "/cs/statistics-links/"

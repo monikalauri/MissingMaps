@@ -1,4 +1,5 @@
 ---
+lang: cs
 title: "Obchodní podmínky"
 date: 2021-24-01
 layout: basic

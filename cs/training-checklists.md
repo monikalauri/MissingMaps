@@ -1,4 +1,5 @@
 ---
+lang: cs
 layout: basic
 title: "Školicí materiály a kontrolní seznamy"
 permalink: "/cs/training-checklists/"

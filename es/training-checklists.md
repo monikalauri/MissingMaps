@@ -1,4 +1,5 @@
 ---
+lang: es
 layout: basic
 title: "Materiales de formación y listas de verificación"
 permalink: "/es/training-checklists/"

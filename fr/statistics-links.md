@@ -1,4 +1,5 @@
 ---
+lang: fr
 layout: basic
 title: "Statistiques des mapathons"
 permalink: "/fr/statistics-links/"

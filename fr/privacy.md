@@ -1,4 +1,5 @@
 ---
+lang: fr
 title: "Politique de confidentialité"
 date: 2021-24-01
 layout: basic

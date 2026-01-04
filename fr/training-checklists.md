@@ -1,4 +1,5 @@
 ---
+lang: fr
 layout: basic
 title: "Supports de formation et listes de contrôle"
 permalink: "/fr/training-checklists/"

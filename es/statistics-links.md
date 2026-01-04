@@ -1,4 +1,5 @@
 ---
+lang: es
 layout: basic
 title: "Estadísticas de mapatones"
 permalink: "/es/statistics-links/"
