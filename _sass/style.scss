@@ -676,10 +676,11 @@ p,
     line-height: 100%;
     text-decoration: none;
 
-    svg {
+    i {
       width: 1rem;
       height: 1rem;
       margin-left: 0.5rem;
+      color: var(--color-primary-bg);
     }
   }
 }

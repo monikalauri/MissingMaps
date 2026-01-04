@@ -22,9 +22,10 @@ video_2_id: "njxePdKn1pI"
 
 mapswipe_heading: "Organize a MapSwipe Event"
 mapswipe_body: |-
-  Organizing a MapSwipe event is a simple, yet powerful way to make an impact. Thinking about bringing people to MapSwipe together? Start with the [MapSwipe Event Toolkit]([[MAPSWIPE_TOOLKIT_URL]]) and MapSwipe event [FAQs]([[MAPSWIPE_FAQ_URL]]).
+  Organizing a MapSwipe event is a simple, yet powerful way to make an impact. Thinking about bringing people to MapSwipe together? Start with the [MapSwipe Event Toolkit](https://drive.google.com/drive/folders/1j5XnyqI_LKYBCg9oJaaWIKbsBxwB8Cld?usp=drive_link) and MapSwipe event [FAQs](https://wiki.openstreetmap.org/wiki/MapSwipe_event_FAQ).
 
 mapswipe_image: "assets/images/pages/mapswipe.jpg"
+
 resources_heading: "Resources to Get You Started"
 resources_text: |-
   Make your mapathon a success by exploring the [training materials and checklists](/training-checklists/).
@@ -36,14 +37,13 @@ register_heading: "Register your event"
 register_body: |-
   Are you organizing a Missing Maps event? Register your mapathon to let others know and make your event visible to the community!
 
-
   **How to register:**
 
-  1. Click on the [“Register Your Event”]([[REGISTER_URL]]) button
+  1. Click on the [“Register Your Event”](https://osmcal.org/event/add/) button
   2. Include “**Missing Maps**” or “**Mapathon**” in the event name (e.g., “January Missing Maps Mapathon in Prague”)
   3. Fill out all the other details and **Save Event**
 
-  Your event should appear in a few moments on [OSMCal]([[OSMCAL_URL]]) and on the [Events Calendar]([[EVENTS_URL]]) on the **Missing Maps Website**!
+  Your event should appear in a few moments on [OSMCal](https://osmcal.org/) and on the [Events Calendar](/events/) on the **Missing Maps Website**!
 
 register_button_text: "Register your event"
 
@@ -55,16 +55,6 @@ tips_heading: "Tips for first-time hosts:"
 tips:
   - "Start small: 20–25 participants is ideal for your first mapathon."
   - "Build your training capacity before organizing larger events."
-  - "For events of 50+ participants, contact [info@hotosm.org]([[INFO_EMAIL]])."
-  - "If you want to host a large group without extensive training, consider a [MapSwipe event]([[MAPSWIPE_PAGE]]), which is easier to manage responsibly and great for those new to the Missing Maps project."
-
-# ---- Links (translators don’t touch these) ----
-mapswipe_toolkit_url: "https://drive.google.com/drive/folders/1j5XnyqI_LKYBCg9oJaaWIKbsBxwB8Cld?usp=drive_link"
-mapswipe_faq_url: "https://wiki.openstreetmap.org/wiki/MapSwipe_event_FAQ"
-training_checklists_url: "/training-checklists/"
-register_url: "https://osmcal.org/event/add/"
-osmcal_url: "https://osmcal.org/"
-events_url: "/events/"
-info_email: "mailto:info@hotosm.org"
-mapswipe_page: "/mapswipe/"
+  - "For events of 50+ participants, contact [info@hotosm.org](mailto:info@hotosm.org)."
+  - "If you want to host a large group without extensive training, consider a [MapSwipe event](/mapswipe/), which is easier to manage responsibly and great for those new to the Missing Maps project."
 ---

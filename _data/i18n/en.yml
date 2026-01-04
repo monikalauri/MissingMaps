@@ -1,5 +1,17 @@
 contrib:
+  title: "Contributions"
   total_contributors: "Total contributors"
   total_edits: "Total edits"
   building_edits: "Building edits"
   roads_km: "Roads (km)"
+
+openstreetmap:
+  title: "OpenStreetMap"
+  sub_heading: "OpenStreetMap is the volunteer-driven open data mapping platform which makes much of this possible, supported by the not-for-profit OpenStreetMap Foundation."
+  button_one_text: "OpenStreetMap"
+  button_two_text: "Learn more"
+
+footer:
+  footer_title: "Contact:"
+  contact_us: "Contact Us"
+  copyright: "© 2025 Missing Maps. All rights reserved."

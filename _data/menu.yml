@@ -3,55 +3,72 @@ main:
     name: Get Involved
     weight: 1
     child:
-      - name: "MapSwipe"
+      - key: mapswipe
+        name: "MapSwipe"
         url: /mapswipe/
-      - name: "HOT Tasking Manager"
+      - key: hot_tasking_manager
+        name: "HOT Tasking Manager"
         url: /hot-tasking-manager/
-      - name: "Field Mapping"
+      - key: field_mapping
+        name: "Field Mapping"
         url: /field-mapping/
-      - name: "Current Projects"
+      - key: current_projects
+        name: "Current Projects"
         url: /projects/
+
   - key: organize_event
     name: Organize an Event
     weight: 2
     child:
-      - name: "Hosting a Mapathon"
+      - key: hosting_a_mapathon
+        name: "Hosting a Mapathon"
         url: /hosting-a-mapathon/
-      - name: "Training Materials & Checklists"
+      - key: training_materials_checklists
+        name: "Training Materials & Checklists"
         url: /training-checklists/
-      - name: "Statistics & Useful Links"
+      - key: statistics_useful_links
+        name: "Statistics & Useful Links"
         url: /statistics-links/
+
   - key: events_calendar
     name: Events Calendar
     url: /events/
     weight: 3
+
   - key: blog
     name: Blog
     url: /blog/
     weight: 4
+
   - key: about
     name: About
     url: /about/
     weight: 5
 
-#not translated: 
 footer_primary:
-  - name: Blog
+  - key: blog
+    name: Blog
     url: /posts/
     weight: 1
-  - name: About
+  - key: about
+    name: About
     url: /about/
     weight: 2
-  - name: Contact
+  - key: contact
+    name: Contact
     url: /contact/
     weight: 3
-  - name: Buy Now
+  - key: buy_now
+    name: Buy Now
     url: http://localhost:1313/theme/jekyll-origin/
     weight: 4
+
 bottom:
-  - name: Terms and Conditions
+  - key: terms_and_conditions
+    name: Terms and Conditions
     url: /terms-and-conditions/
     weight: 1
-  - name: Privacy Policy
+  - key: privacy_policy
+    name: Privacy Policy
     url: /privacy-policy/
     weight: 2

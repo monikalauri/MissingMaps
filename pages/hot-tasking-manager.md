@@ -13,7 +13,7 @@ image: "assets/images/pages/hot-tasking-manager.jpg"
 nav_1: "First Steps"
 nav_2: "Advanced Mapping"
 nav_3: "Validation"
-# --- First Steps section ---
+
 first_steps_heading: "First Steps"
 first_steps_intro: |-
   It is no problem if you have never mapped on the HOT Tasking Manager before. It doesn't take long to learn – just about an afternoon!
@@ -66,11 +66,10 @@ fs_webinar_playlist_id: "PLb9506_-6FMFhgnFqmOVCBCWIGP2SHAwF"
 
 fs_more_training_links: |-
   You can visit [LearnOSM](https://learnosm.org/en/coordination/humanitarian/) for additional tutorials.
-learn_OSM_button_text: Learn OSM
+learn_OSM_button_text: LearnOSM
 learn_OSM_button_url: https://learnosm.org/en/coordination/humanitarian/
 
 
-# --- Advanced Mapping section ---
 advanced_heading: "Advanced Mapping"
 advanced_intro: |-
   JOSM is a powerful OpenStreetMap editing tool that will supercharge your mapping abilities!  
@@ -89,7 +88,7 @@ advanced_webinar_2_video_id: "98kd1kJ5mKQ"
 advanced_more_resources: |-
   Feel free to explore also [LearnOSM](https://learnosm.org/en/josm/) and the [JOSM](https://wiki.openstreetmap.org/wiki/JOSM) Wiki page, where you can find more information.
 
-# --- Validation section ---
+
 validation_heading: "Validation"
 validation_intro: |-
   Validation is an important part of the Missing Maps process. Getting a second, third, or fourth pair of eyes on mapped features goes a long way in ensuring the quality of data being added to OpenStreetMap and being used in vulnerable communities around the world.
