@@ -40,7 +40,7 @@ Open to all tool creators: Any creation of Missing Maps project methodology, too
 
 Open to all voices and perspectives: All Missing Maps project activities are designed to be accessible and open for participation for individuals, communities and organizations who want to contribute towards the Missing Maps project objectives.
 
-**[MISSING MAPS MEDIA GUIDELINES](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)**
+[MISSING MAPS MEDIA GUIDELINES](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)
 
 ## Sustainable
 Whenever possible, Missing Maps project activities are undertaken in collaboration with local individuals, communities, and organizations and in a respectful manner at all times.

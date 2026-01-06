@@ -41,7 +41,7 @@ Abierto a todos los creadores de herramientas: cualquier metodología, herramien
 
 Abierto a todas las voces y perspectivas: las actividades de Missing Maps están diseñadas para ser accesibles a personas, comunidades y organizaciones que deseen contribuir a los objetivos del proyecto.
 
-**[DIRECTRICES DE MEDIOS DE MISSING MAPS](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)**
+[DIRECTRICES DE MEDIOS DE MISSING MAPS](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)
 
 ## Sostenible
 Siempre que sea posible, las actividades de Missing Maps se desarrollan en colaboración con personas, comunidades y organizaciones locales, de manera respetuosa.
