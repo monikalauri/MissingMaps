@@ -41,7 +41,7 @@ Otevřené všem tvůrcům nástrojů: veškeré metodiky, nástroje, software �
 
 Otevřené všem hlasům a perspektivám: aktivity Missing Maps jsou navrženy tak, aby byly přístupné jednotlivcům, komunitám i organizacím, které chtějí přispět k cílům projektu.
 
-**MEDIÁLNÍ SMĚRNICE MISSING MAPS**
+**[MEDIÁLNÍ SMĚRNICE MISSING MAPS](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)**
 
 ## Udržitelnost
 Aktivity Missing Maps jsou, pokud je to možné, realizovány ve spolupráci s místními jednotlivci, komunitami a organizacemi a vždy s respektem.

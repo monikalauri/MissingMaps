@@ -32,17 +32,15 @@ Missing Maps project member organizations ensure that all non-sensitive data gat
 
 Any data added to OpenStreetMap is added under the [ODbL license](https://opendatacommons.org/licenses/odbl/). Any data added to MapSwipe is collected in MapSwipe's [open database](https://mapswipe.org/en/data/).
 
-[OpenStreetMap Foundation Privacy Policy](https://osmfoundation.org/wiki/Privacy_Policy)
-
-[HOT Privacy Policy](https://www.hotosm.org/privacy)
-
-[MapSwipe Privacy Policy](https://mapswipe.org/en/privacy/)
+- [OpenStreetMap Foundation Privacy Policy](https://osmfoundation.org/wiki/Privacy_Policy)
+- [HOT Privacy Policy](https://www.hotosm.org/privacy)
+- [MapSwipe Privacy Policy](https://mapswipe.org/en/privacy/)
 
 Open to all tool creators: Any creation of Missing Maps project methodology, tools, software or technology by Missing Maps project member organizations will be open source and enable global volunteer network contribution.
 
 Open to all voices and perspectives: All Missing Maps project activities are designed to be accessible and open for participation for individuals, communities and organizations who want to contribute towards the Missing Maps project objectives.
 
-MISSING MAPS MEDIA GUIDELINES
+**[MISSING MAPS MEDIA GUIDELINES](https://drive.google.com/file/d/1rhVcsj0Irh24mhbWfnX2zzl939qaCba5/view?usp=sharing)**
 
 ## Sustainable
 Whenever possible, Missing Maps project activities are undertaken in collaboration with local individuals, communities, and organizations and in a respectful manner at all times.

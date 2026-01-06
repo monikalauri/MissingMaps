@@ -168,7 +168,7 @@ newsletter:
     form_title: ""
 
 contact_form: 
-  use_netlify_form: true
+  use_netlify_form: false
   use_formspree_form: false
   formspree_endpoint: https://formspree.io/f/moqyklqv
   netlify_form_name: "contact"
@@ -180,7 +180,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "Contact:"
-  footer_link: "email@example.com"
+  footer_link: "info@hotosm.org"
   enable_social_media_icons: true
   enable_menu_footer_primary: false
   enable_menu_footer_secondary: false
@@ -193,5 +193,5 @@ footer:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2025 Missing Maps. All rights reserved."
+  copyright_text: "© 2026 Missing Maps. All rights reserved."
   show_rss_icon: true

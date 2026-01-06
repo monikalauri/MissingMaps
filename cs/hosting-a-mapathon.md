@@ -47,6 +47,7 @@ register_body: |-
   Vaše akce by se měla během několika okamžiků objevit na [OSMCal](https://osmcal.org/) a v [kalendáři akcí](/cs/events/) na **webu Missing Maps**.
 
 register_button_text: "Registrovat akci"
+register_button_url: "https://osmcal.org/event/add/"
 
 large_heading: "Pořádáte velkou akci?"
 large_body: |-

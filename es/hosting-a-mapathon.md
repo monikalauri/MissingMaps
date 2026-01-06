@@ -47,6 +47,7 @@ register_body: |-
   Tu evento debería aparecer en pocos minutos en [OSMCal](https://osmcal.org/) y en el [Calendario de eventos](/es/events/) del **sitio web de Missing Maps**.
 
 register_button_text: "Registrar tu evento"
+register_button_url: "https://osmcal.org/event/add/"
 
 large_heading: "¿Organizas un evento grande?"
 large_body: |-
