@@ -44,11 +44,13 @@ body_classes: page-blog
 
           {% for project in projects %}
           <div class="col-12 col-lg-4 mb-3">
+            {% assign project_image = project.banner | default: page.image %}
+
             {% include theme/cards/card-post.html
             title=project.title
             date=project.date
             description=project.excerpt
-            thumbnail=project.banner
+            thumbnail=project_image
             image=project.banner
             url=project.url
             categories=false

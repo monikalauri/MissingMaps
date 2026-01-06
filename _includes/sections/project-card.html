@@ -7,10 +7,15 @@ Optional: item.read_more_label
 {%- assign p = include.item -%}
 {%- if p -%}
 
+{%- assign fallback_image = "assets/images/pages/current-projects.jpg" | relative_url -%}
+{%- assign card_image = p.banner | default: fallback_image -%}
+
 <div class="card card-post card-column card-has-thumbnail project-card">
 
   <div class="card-thumbnail">
-    <a href="{{ p.url | relative_url }}"><img alt="{{ p.title }}" src="{{ p.banner }}" /></a>
+    <a href="{{ p.url | relative_url }}">
+      <img src="{{ card_image }}" alt="{{ p.title | escape }}" loading="lazy" />
+    </a>
   </div>
 
   <div class="card-content">
