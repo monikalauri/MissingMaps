@@ -2,21 +2,34 @@
   <div class="pagination">
     <ul>
       {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | remove_first: 'index.html' }}">Newer</a></li>
+        <li>
+          <a href="{{ paginator.previous_page_path | remove_first: 'index.html' | relative_url }}">
+            <i class="fa fa-chevron-left"></i>
+          </a>
+        </li>
       {% endif %}
 
       {% if paginator.page_trail %}
         {% for trail in paginator.page_trail %}
-          <li class="{% if page.url == trail.path %}pagination-item-current{% endif %}"><a href="{{ trail.path | remove_first: 'index.html' }}" title="{{trail.title}}">{{ trail.num }}</a></li>
+          <li class="{% if page.url == trail.path %}pagination-item-current{% endif %}">
+            <a href="{{ trail.path | remove_first: 'index.html' | relative_url }}" title="{{ trail.title }}">
+              {{ trail.num }}
+            </a>
+          </li>
         {% endfor %}
       {% endif %}
 
       {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | remove_first: 'index.html' }}">Older</a></li>
+        <li>
+          <a href="{{ paginator.next_page_path | remove_first: 'index.html' | relative_url }}">
+            <i class="fa fa-chevron-right"></i>
+          </a>
+        </li>
       {% endif %}
     </ul>
   </div>
 {% endif %}
+
 
 <!-- 
 {{ paginator.per_page }}

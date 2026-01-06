@@ -10,10 +10,19 @@ highlighter: rouge
 # Plugins
 plugins:
   - jekyll-environment-variables
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
-paginate: 9
-paginate_path: "/blog/page/:num"
+pagination:
+  enabled: true
+  per_page: 9
+  sort_field: "date"
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+
+# paginate: 9
+# paginate_path: "/blog/page/:num"
 
 # Collections
 collections_dir: collections

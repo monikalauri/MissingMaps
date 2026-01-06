@@ -41,3 +41,6 @@ footer:
 bottom:
   terms_and_conditions: "Obchodní podmínky"
   privacy_policy: "Zásady ochrany osobních údajů"
+
+pagination:
+  page: "Page"

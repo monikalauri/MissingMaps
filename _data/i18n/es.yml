@@ -41,3 +41,6 @@ footer:
 bottom:
   terms_and_conditions: "Términos y condiciones"
   privacy_policy: "Política de privacidad"
+
+pagination:
+  page: "Página"

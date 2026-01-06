@@ -1,8 +1,9 @@
 ---
 layout: blog
+lang: fr
 body_classes: page-blog
 title: "Blog"
-permalink: "/blog/"
+permalink: "/fr/blog/"
 pagination:
   enabled: true
   collection: posts
