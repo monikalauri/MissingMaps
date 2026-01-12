@@ -24,8 +24,6 @@ collections:
 
       - { label: "Title", name: "title", widget: "string" }
 
-      - { label: "Post ID", name: "postID", widget: "string", required: false }
-
       # Banner can be an uploaded image OR an external URL:
       - label: "Banner"
         name: "banner"
@@ -33,7 +31,13 @@ collections:
         required: false
         hint: "Paste an image URL (https://...) OR upload an image and paste its path."
 
-      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        picker_utc: true
 
       - { label: "Author", name: "author", widget: "string", required: false }
 
@@ -43,12 +47,23 @@ collections:
 
       - { label: "Categories", name: "categories", widget: "list", required: false }
 
-      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - label: "Permalink"
+        name: "permalink"
+        widget: "string"
+        required: false
+        default: "/blog/:year/:month/:day/:title/"
+        hint: "Optional. Default: /blog/:year/:month/:day/:title/. If needed for translations, add a language prefix e.g. /fr/blog/:year/:month/:day/:title/."
 
       - label: "Language"
         name: "lang"
         widget: "select"
         options: ["en", "fr", "cs", "es"]
         default: "en"
+      
+      - label: "Post ID"
+        name: "postID"
+        widget: "string"
+        required: false
+        hint: "Optional. Internal identifier (e.g. MM-2023-annual-report-highlights-Cameroon)."
 
       - { label: "Body", name: "body", widget: "markdown" }
