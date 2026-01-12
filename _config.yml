@@ -146,8 +146,8 @@ darkmode:
   show_dark_mode_toggle_in_mobile_menu: false # displays the dark mode toggle switch in the footer and allows the user to manually change the mode
 
 cookie_banner:
-  enabled: true
-  show_manage_cookies_at_bottom: true
+  enabled: false
+  show_manage_cookies_at_bottom: false
 
 analytics:
   google_analytics_id: "" # G-XXXXXXXXXX

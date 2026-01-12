@@ -64,11 +64,15 @@ footer_primary:
     weight: 4
 
 bottom:
-  - key: terms_and_conditions
-    name: Terms and Conditions
-    url: /terms-and-conditions/
+  - key: terms
+    name: Terms of Use
+    url: /terms/
     weight: 1
-  - key: privacy_policy
+  - key: privacy
     name: Privacy Policy
-    url: /privacy-policy/
+    url: /privacy/
     weight: 2
+  - key: legal_notice
+    name: Legal Notice
+    url: /legal/
+    weight: 3

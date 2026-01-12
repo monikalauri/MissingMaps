@@ -1,114 +1,75 @@
 ---
 title: "Privacy Policy"
-date: 2026-06-01
+date: 2026-08-01
 layout: basic
-permalink: "/privacy-policy/"
+permalink: "/privacy/"
 ---
+**Last update:** 8.1.2026
 
+# Overview
+Missing Maps is committed to protecting your privacy. This website is informational in
+nature and can be used without creating an account or providing personal
+information. We only process limited technical data necessary for the website to
+function and to display embedded third-party content.
 
-We have done our best to create a simple, transparent privacy policy. **Our aim is to collect and store no data, or as little as possible.** We only use cookies that are essential to run this website.
+# Information We Collect
+We do not actively collect personal data such as names, email addresses, or user
+accounts through this website.
 
-This site is statically generated and served as HTML. Fundamentally this means there is very little surface area for this site to be hacked or compromised. It does not require a database or backend server to process and render documents. Technically there is still a webserver, but it serves pre-rendered documents generated at build time.
+However, when you visit the site, limited technical information may be processed
+automatically, including:
+- IP address
+- browser and device information
+- 
+This information is processed by our hosting provider and third-party services as
+described below.
 
----
+## Hosting (GitHub Pages)
+This website is hosted on GitHub Pages. GitHub may process technical data (such as IP
+addresses and logs) to provide and secure its hosting services. This processing is
+governed by GitHub’s own privacy practices.
 
-## Services We Use
+## Embedded Third-Party Content (YouTube)
+Some pages on this website include embedded videos from YouTube, a service
+provided by Google.
 
-### Analytics
+When you view or interact with an embedded YouTube video, Google may collect
+information such as your IP address and set cookies on your device. This processing is
+subject to Google’s Privacy Policy.
 
-This site uses Plausible Analytics, a privacy focused GDPR compliant analytics alternative to Google Analytics. By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. All data is in aggregate only. [Learn More](https://plausible.io/privacy-focused-web-analytics)
+We use YouTube embeds only to display video content related to our activities.
 
-### Advertising & Marketing 
+## Third-Party Links
+Our website may include links to third-party websites or services (e.g., YouTube, HOT
+Tasking Manager, social media). We are not responsible for the content or privacy
+practices of these sites.
 
-This site does not include any 3rd party advertising or marketing tracking code.
+# Cookies
+This website itself does not set cookies. Embedded third-party content (such as
+YouTube videos) may set cookies when you interact with it. You can control or delete
+cookies through your browser settings at any time.
 
-### Fonts
+## How We Use Information
+Any information processed is used solely to:
+- ensure the website functions correctly
+- display embedded content
 
-This website does not use Google fonts from the Google CDN. It uses a self-hosted version of fonts which are free of tracking.
+We do not use personal data for marketing, profiling, or commercial purposes.
 
-### Youtube
+# Data Sharing
+We do not sell or share personal data.
 
-If and where Youtube videos are embedded in this site, we use the Youtube privacy-enhanced embed mode. [Learn More](https://support.google.com/youtube/answer/171780?hl=en#zippy=%2Cturn-on-privacy-enhanced-mode)
+Data may be processed by third parties only as necessary to operate the website (e.g.
+hosting and embedded media).
 
-**Contact Form**
+# Your Rights
+If you are located in the European Union, you have rights under the General Data
+Protection Regulation (GDPR), including the right to access, correct, or request
+deletion of your personal data, where applicable.
 
-We may request your personal information via our contact form. Personally identifiable information may include, but is not limited to:
+# Changes to This Policy
+We may update this Privacy Policy from time to time. Any changes will be reflected on
+this page with an updated revision date.
 
-- Email address
-- First name and last name
-- Address
-- Phone number
-
-Any data you submit in this form may be shared with 3rd party service providers. These providers include, but are not limited to:
-
-- [Formspree](https://formspree.io/legal/privacy-policy/)
-- [Netlify](https://www.netlify.com/privacy/)
-
-Our contact page includes an email link where you may email us directly instead of using the contact form.
-
-**Newsletter Subscription**
-
-We may request your personal information via our newseltter subscription form. Personally identifiable information may include, but is not limited to:
-
-- Email address
-- First name and last name
-
-Any data you submit in this form may be shared with 3rd party service providers. These providers include, but are not limited to:
-
-- [Mailchimp](https://mailchimp.com/legal/)
-
-**Comments**
-
-When posting comments on this site, your data may be shared with a 3rd party service. These providers include, but are not limited to:
-
-- [Disqus](https://disqus.com/privacy-policy/)
-
-
----
-
-## Information We Collect
-
-We may collect the following types of personal data:
-
-- **Contact Information**: Name, email address, mailing address, phone number.
-- **Log Data**: Information that your browser sends whenever you visit our Site.
-- **Cookies**: Data files placed on your device or computer which often include an anonymous unique identifier.
-
-## How We Use Your Information
-
-We may use the information we collect for various purposes, including:
-
-- **To Provide and Maintain the Site**: We use your personal data to provide you with access to our Site and to monitor and improve its performance.
-- **To Send You Updates and Marketing Communications**: We may send you newsletters or marketing communications about our services.
-- **To Comply With Legal Obligations**: We may use your information to comply with legal obligations, such as to respond to a subpoena or other legal request.
-
-## Data Sharing and Disclosure
-
-We may share your personal data with third parties in the following situations:
-
-- **With Service Providers**: We may share your information with third-party service providers who perform services on our behalf.
-- **For Legal Purposes**: We may share your information when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.
-
-## Your Rights
-
-You have the right to:
-
-- **Access**: Request access to your personal data.
-- **Correction**: Request correction of your personal data.
-- **Deletion**: Request deletion of your personal data.
-- **Data Portability**: Request the transfer of your personal data to another party.
-- **Withdraw Consent**: Withdraw your consent at any time where we rely on your consent to process your personal data.
-
-## Security
-
-We take reasonable measures to help protect your personal data from loss, theft, misuse, and unauthorized access, disclosure, alteration, and destruction.
-
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
-
----
-
-## Contact Us
-
-If you have any questions about this Privacy Policy, You can contact us: [support@example.com](mailto:support@example.com)
+# Contact
+If you have any questions about this Privacy Policy, please contact us at: [info@hotosm.org](mailto:info@hotosm.org)

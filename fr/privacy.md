@@ -1,116 +1,79 @@
 ---
-lang: fr
 title: "Politique de confidentialité"
-date: 2021-24-01
+date: 2026-08-01
 layout: basic
-permalink: "/fr/privacy-policy/"
+permalink: "/fr/privacy/"
+lang: fr
 ---
+**Dernière mise à jour :** 8.1.2026
 
-Nous avons fait de notre mieux pour créer une politique de confidentialité simple et transparente. **Notre objectif est de ne collecter aucune donnée, ou le moins possible.** Nous utilisons uniquement des cookies essentiels au fonctionnement de ce site.
+# Aperçu
+Missing Maps s’engage à protéger votre vie privée. Ce site web est de nature informative
+et peut être utilisé sans créer de compte ni fournir d’informations personnelles.
+Nous traitons uniquement des données techniques limitées nécessaires au
+fonctionnement du site et à l’affichage de contenus tiers intégrés.
 
-Ce site est généré statiquement et servi sous forme de HTML. Cela signifie fondamentalement qu’il existe très peu de surface d’attaque pour qu’il soit piraté ou compromis. Il ne nécessite pas de base de données ni de serveur backend pour traiter et afficher les contenus. Techniquement, un serveur web est toujours utilisé, mais il sert uniquement des documents pré-générés lors de la phase de construction.
+# Informations que nous collectons
+Nous ne collectons pas activement de données personnelles telles que les noms,
+adresses e-mail ou comptes utilisateurs via ce site web.
 
----
+Cependant, lors de votre visite sur le site, certaines informations techniques limitées
+peuvent être traitées automatiquement, notamment :
+- adresse IP
+- informations sur le navigateur et l’appareil
 
-## Services que nous utilisons
+Ces informations sont traitées par notre fournisseur d’hébergement et des services
+tiers, comme décrit ci-dessous.
 
-### Analytique
+## Hébergement (GitHub Pages)
+Ce site web est hébergé sur GitHub Pages. GitHub peut traiter des données techniques
+(telles que les adresses IP et les journaux) afin de fournir et sécuriser ses services
+d’hébergement. Ce traitement est régi par les propres pratiques de confidentialité de GitHub.
 
-Ce site utilise Plausible Analytics, une solution d’analyse respectueuse de la vie privée et conforme au RGPD, alternative à Google Analytics. Avec Plausible Analytics, toutes les mesures sont effectuées de manière totalement anonyme. Aucun cookie n’est installé et aucune donnée personnelle n’est collectée. Les données sont uniquement agrégées.  
-[En savoir plus](https://plausible.io/privacy-focused-web-analytics)
+## Contenu tiers intégré (YouTube)
+Certaines pages de ce site web incluent des vidéos intégrées provenant de YouTube,
+un service fourni par Google.
 
-### Publicité et marketing
+Lorsque vous consultez ou interagissez avec une vidéo YouTube intégrée, Google peut
+collecter des informations telles que votre adresse IP et installer des cookies sur votre
+appareil. Ce traitement est soumis à la Politique de confidentialité de Google.
 
-Ce site n’inclut aucun code de suivi publicitaire ou marketing tiers.
+Nous utilisons les intégrations YouTube uniquement pour afficher du contenu vidéo lié
+à nos activités.
 
-### Polices
+## Liens vers des tiers
+Notre site web peut inclure des liens vers des sites ou services tiers (par exemple
+YouTube, HOT Tasking Manager, réseaux sociaux). Nous ne sommes pas responsables
+du contenu ni des pratiques de confidentialité de ces sites.
 
-Ce site n’utilise pas les polices Google via le CDN de Google. Il utilise des polices auto-hébergées, sans mécanisme de suivi.
+# Cookies
+Ce site web ne définit pas de cookies. Les contenus tiers intégrés (tels que les vidéos
+YouTube) peuvent définir des cookies lorsque vous interagissez avec eux. Vous pouvez
+contrôler ou supprimer les cookies à tout moment via les paramètres de votre navigateur.
 
-### YouTube
+## Comment nous utilisons les informations
+Toute information traitée est utilisée uniquement pour :
+- assurer le bon fonctionnement du site web
+- afficher du contenu intégré
 
-Lorsque des vidéos YouTube sont intégrées sur ce site, nous utilisons le mode de confidentialité renforcée de YouTube.  
-[En savoir plus](https://support.google.com/youtube/answer/171780?hl=fr#zippy=%2Cturn-on-privacy-enhanced-mode)
+Nous n’utilisons pas de données personnelles à des fins de marketing, de profilage ou
+commerciales.
 
-### Formulaire de contact
+# Partage des données
+Nous ne vendons ni ne partageons de données personnelles.
 
-Nous pouvons vous demander certaines informations personnelles via notre formulaire de contact. Les données personnelles identifiables peuvent inclure, sans s’y limiter :
+Les données peuvent être traitées par des tiers uniquement lorsque cela est nécessaire
+au fonctionnement du site web (par exemple l’hébergement et les médias intégrés).
 
-- Adresse e-mail  
-- Prénom et nom  
-- Adresse  
-- Numéro de téléphone  
+# Vos droits
+Si vous êtes situé(e) dans l’Union européenne, vous disposez de droits en vertu du
+Règlement général sur la protection des données (RGPD), notamment le droit d’accès,
+de rectification ou de suppression de vos données personnelles, le cas échéant.
 
-Les données soumises via ce formulaire peuvent être partagées avec des prestataires tiers, notamment :
+# Modifications de cette politique
+Nous pouvons mettre à jour cette Politique de confidentialité de temps à autre. Toute
+modification sera reflétée sur cette page avec une date de révision mise à jour.
 
-- [Formspree](https://formspree.io/legal/privacy-policy/)  
-- [Netlify](https://www.netlify.com/privacy/)  
-
-Notre page de contact inclut également un lien e-mail vous permettant de nous contacter directement sans utiliser le formulaire.
-
-### Abonnement à la newsletter
-
-Nous pouvons vous demander certaines informations personnelles via notre formulaire d’abonnement à la newsletter. Ces informations peuvent inclure, sans s’y limiter :
-
-- Adresse e-mail  
-- Prénom et nom  
-
-Les données soumises peuvent être partagées avec des prestataires tiers, notamment :
-
-- [Mailchimp](https://mailchimp.com/legal/)
-
-### Commentaires
-
-Lors de la publication de commentaires sur ce site, vos données peuvent être partagées avec un service tiers, notamment :
-
-- [Disqus](https://disqus.com/privacy-policy/)
-
----
-
-## Informations que nous collectons
-
-Nous pouvons collecter les types de données personnelles suivants :
-
-- **Informations de contact** : nom, adresse e-mail, adresse postale, numéro de téléphone  
-- **Données de journal** : informations envoyées par votre navigateur lorsque vous visitez notre site  
-- **Cookies** : fichiers de données stockés sur votre appareil, incluant souvent un identifiant anonyme unique  
-
-## Utilisation de vos informations
-
-Nous pouvons utiliser les informations collectées pour :
-
-- **Fournir et maintenir le site** : assurer l’accès et améliorer les performances  
-- **Vous envoyer des mises à jour ou communications** : newsletters ou informations liées à nos services  
-- **Respecter les obligations légales** : répondre à des demandes légales ou réglementaires  
-
-## Partage et divulgation des données
-
-Nous pouvons partager vos données personnelles dans les situations suivantes :
-
-- **Avec des prestataires de services** : agissant en notre nom  
-- **À des fins légales** : lorsque cela est nécessaire pour protéger nos droits, votre sécurité ou celle d’autrui  
-
-## Vos droits
-
-Vous avez le droit de :
-
-- **Accéder** à vos données personnelles  
-- **Rectifier** vos données personnelles  
-- **Demander la suppression** de vos données  
-- **Demander la portabilité des données**  
-- **Retirer votre consentement** à tout moment  
-
-## Sécurité
-
-Nous prenons des mesures raisonnables pour protéger vos données personnelles contre la perte, l’utilisation abusive, l’accès non autorisé ou la divulgation.
-
-## Modifications de cette politique
-
-Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Toute modification sera publiée sur cette page.
-
----
-
-## Nous contacter
-
-Pour toute question concernant cette politique de confidentialité, vous pouvez nous contacter à l’adresse suivante :  
-[support@example.com](mailto:support@example.com)
+# Contact
+Si vous avez des questions concernant cette Politique de confidentialité, veuillez nous
+contacter à l’adresse suivante : [info@hotosm.org](mailto:info@hotosm.org)

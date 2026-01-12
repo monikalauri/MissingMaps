@@ -36,11 +36,13 @@ nav_labels:
 footer:
   footer_title: "Kontakt:"
   contact_us: "Kontaktujte nás"
-  copyright: "© 2025 Missing Maps. Všechna práva vyhrazena."
+  copyright: "© 2026 Missing Maps. Všechna práva vyhrazena."
 
 bottom:
-  terms_and_conditions: "Obchodní podmínky"
-  privacy_policy: "Zásady ochrany osobních údajů"
+  terms: "Podmínky použití"
+  privacy: "Zásady ochrany osobních údajů"
+  legal_notice: "Právní upozornění"
+
 
 pagination:
   page: "Page"

@@ -14,7 +14,12 @@ openstreetmap:
 footer:
   footer_title: "Contact:"
   contact_us: "Contact Us"
-  copyright: "© 2025 Missing Maps. All rights reserved."
+  copyright: "© 2026 Missing Maps. All rights reserved." 
+
+bottom:
+  terms: "Terms of Use"
+  privacy: "Privacy Policy"
+  legal_notice: "Legal Notice"
 
 pagination:
   page: "Page"

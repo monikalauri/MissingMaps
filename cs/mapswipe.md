@@ -35,7 +35,7 @@ start_mapping_text: |-
   3. Dokončete krátký tutoriál
   4. Začněte přejíždět a přispívat
 
-start_mapping_img: "assets/images/home/participate1.jpg"
+start_mapping_img: "assets/images/pages/MapSwipe-Start-Mapping.svg"
 
 button_row:
   - label: "Webová aplikace MAPSWIPE"
@@ -66,6 +66,6 @@ support_text: |-
   Váš dar pomůže zajistit provoz, udržitelnost a údržbu mobilních a webových aplikací.
 support_button_text: "Přispět"
 support_button_url: "https://opencollective.com/mapswipe#category-CONTRIBUTE"
-support_image: "assets/images/pages/validate.jpg"
+support_image: "assets/images/pages/MapSwipe-Support-MapSwipe.svg"
 support_color: "green"
 ---

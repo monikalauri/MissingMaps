@@ -1,83 +1,32 @@
 ---
-lang: es
-title: "Términos y condiciones"
-date: 2021-24-01
+title: "Términos de Uso"
+date: 2026-08-01
 layout: basic
-permalink: "/es/terms-and-conditions/"
+permalink: "/es/terms/"
+lang: es
 ---
 
-Por favor, lea atentamente estos términos y condiciones antes de utilizar nuestro Servicio.
+**Última actualización:** 8.1.2026
 
-# Interpretación y definiciones
+Este sitio web es operado como parte del proyecto Missing Maps y se proporciona
+exclusivamente con fines informativos y humanitarios.
 
-## Interpretación
+# Uso del contenido
+Salvo que se indique lo contrario, el contenido de este sitio web puede utilizarse
+y compartirse con fines no comerciales, humanitarios y educativos, con la debida
+atribución a Missing Maps o a las organizaciones miembros correspondientes.
 
-Las palabras cuya letra inicial está en mayúscula tienen los significados definidos a continuación, independientemente de que aparezcan en singular o plural.
+# Sin servicios ni cuentas
+Este sitio web no ofrece cuentas de usuario, servicios de pago, transacciones ni
+cargas de datos. El contenido se proporciona “tal cual” y puede actualizarse o
+modificarse sin previo aviso.
 
-## Definiciones
-
-A efectos de estos Términos y Condiciones:
-
-- **Afiliado** significa una entidad que controla, es controlada por o está bajo control común con una parte.
-- **País** se refiere a: California, Estados Unidos
-- **Empresa** se refiere a Example Site.
-- **Dispositivo** significa cualquier dispositivo que pueda acceder al Servicio.
-- **Servicio** se refiere al sitio web.
-- **Términos y Condiciones** constituyen el acuerdo completo entre Usted y la Empresa.
-- **Servicio de redes sociales de terceros** significa cualquier servicio proporcionado por terceros.
-- **Sitio web** se refiere a Example Site.
-- **Usted** significa la persona que accede o utiliza el Servicio.
-
-# Reconocimiento
-
-Al utilizar el Servicio, Usted acepta estos Términos. Si no está de acuerdo, no debe utilizar el Servicio.
-
-Usted declara ser mayor de 18 años.
-
-# Enlaces a otros sitios web
-
-La Empresa no es responsable del contenido ni de las políticas de sitios web de terceros.
-
-# Terminación
-
-Podemos suspender o cancelar su acceso al Servicio en cualquier momento.
+# Enlaces externos
+Este sitio web contiene enlaces a sitios web y plataformas de terceros (como
+YouTube, HOT Tasking Manager o redes sociales). No somos responsables del
+contenido ni de las prácticas de estos sitios externos.
 
 # Limitación de responsabilidad
-
-La responsabilidad total de la Empresa estará limitada al monto pagado o a 100 USD.
-
-# Descargo de responsabilidad
-
-El Servicio se proporciona “TAL CUAL” y “SEGÚN DISPONIBILIDAD”.
-
-# Legislación aplicable
-
-Estos Términos se rigen por las leyes del País.
-
-# Resolución de disputas
-
-Los conflictos se resolverán primero de manera informal.
-
-# Usuarios de la Unión Europea
-
-Los consumidores de la UE conservan sus derechos legales obligatorios.
-
-# Cumplimiento legal en EE. UU.
-
-Usted declara no estar sujeto a sanciones estadounidenses.
-
-# Divisibilidad y renuncia
-
-Si una disposición es inválida, las demás seguirán vigentes.
-
-# Interpretación de la traducción
-
-En caso de conflicto, prevalecerá la versión en inglés.
-
-# Cambios en los Términos
-
-Podemos modificar estos Términos en cualquier momento.
-
-# Contacto
-
-- Por correo electrónico: example@example.com
+Aunque nos esforzamos por mantener la información de este sitio web precisa y
+actualizada, no ofrecemos garantías sobre su integridad o exactitud y no
+asumimos responsabilidad alguna por el uso que se haga de dicha información.

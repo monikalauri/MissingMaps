@@ -34,7 +34,7 @@ start_mapping_text: |-
   3. Complete the short tutorial
   4. Start swiping and contributing
 
-start_mapping_img: "assets/images/home/participate1.jpg"
+start_mapping_img: "assets/images/pages/MapSwipe-Start-Mapping.svg"
 
 button_row:
   - label: "MAPSWIPE Web App"
@@ -69,7 +69,7 @@ support_text: |-
   Your donation will help ensure smooth operation, sustainability and maintenance of the mobile and web apps.
 support_button_text: "Donate Now"
 support_button_url: "https://opencollective.com/mapswipe#category-CONTRIBUTE"
-support_image: "assets/images/pages/validate.jpg"
+support_image: "assets/images/pages/MapSwipe-Support-MapSwipe.svg"
 support_color: "green"
 
 ---

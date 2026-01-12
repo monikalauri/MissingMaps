@@ -35,7 +35,7 @@ start_mapping_text: |-
   3. Completa el breve tutorial
   4. Empieza a deslizar y a contribuir
 
-start_mapping_img: "assets/images/home/participate1.jpg"
+start_mapping_img: "assets/images/pages/MapSwipe-Start-Mapping.svg"
 
 button_row:
   - label: "Aplicación web MAPSWIPE"
@@ -66,6 +66,6 @@ support_text: |-
   Tu donación ayudará a garantizar el funcionamiento continuo, la sostenibilidad y el mantenimiento de las aplicaciones móviles y web.
 support_button_text: "Donar ahora"
 support_button_url: "https://opencollective.com/mapswipe#category-CONTRIBUTE"
-support_image: "assets/images/pages/validate.jpg"
+support_image: "assets/images/pages/MapSwipe-Support-MapSwipe.svg"
 support_color: "green"
 ---

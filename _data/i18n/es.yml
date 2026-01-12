@@ -36,11 +36,12 @@ nav_labels:
 footer:
   footer_title: "Contacto:"
   contact_us: "Contáctanos"
-  copyright: "© 2025 Missing Maps. Todos los derechos reservados."
+  copyright: "© 2026 Missing Maps. Todos los derechos reservados."
 
 bottom:
-  terms_and_conditions: "Términos y condiciones"
-  privacy_policy: "Política de privacidad"
+  terms: "Términos de uso"
+  privacy: "Política de privacidad"
+  legal_notice: "Aviso legal"
 
 pagination:
   page: "Página"
