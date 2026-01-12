@@ -1,0 +1,54 @@
+site_url: "https://monikalauri.github.io/MissingMaps"
+
+backend:
+  name: github
+  repo: "monikalauri/MissingMaps"
+  branch: main
+  base_url: "https://decap-oauth.monika-laurinaviciute.workers.dev/"
+
+
+media_folder: "assets/uploads"
+public_folder: "/MissingMaps/assets/uploads"
+
+collections:
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+
+      - { label: "Title", name: "title", widget: "string" }
+
+      - { label: "Post ID", name: "postID", widget: "string", required: false }
+
+      # Banner can be an uploaded image OR an external URL:
+      - label: "Banner"
+        name: "banner"
+        widget: "string"
+        required: false
+        hint: "Paste an image URL (https://...) OR upload an image and paste its path."
+
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+
+      - { label: "Author", name: "author", widget: "string", required: false }
+
+      - { label: "Excerpt", name: "excerpt", widget: "text", required: false }
+
+      - { label: "Published", name: "published", widget: "boolean", default: true, required: false }
+
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+
+      - label: "Language"
+        name: "lang"
+        widget: "select"
+        options: ["en", "fr", "cs", "es"]
+        default: "en"
+
+      - { label: "Body", name: "body", widget: "markdown" }
