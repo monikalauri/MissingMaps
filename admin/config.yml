@@ -5,7 +5,7 @@ backend:
   repo: "monikalauri/MissingMaps"
   branch: main
   base_url: "https://decap-oauth.monika-laurinaviciute.workers.dev/"
-
+  auth_endpoint: "auth"   # optional, but I like making it explicit
 
 media_folder: "assets/uploads"
 public_folder: "/MissingMaps/assets/uploads"
