@@ -39,8 +39,9 @@ footer:
   copyright: "© 2026 Missing Maps. Tous droits réservés."
 
 bottom:
-  terms_and_conditions: "Conditions générales"
-  privacy_policy: "Politique de confidentialité"
+  terms: "Conditions d’utilisation"
+  privacy: "Politique de confidentialité"
+  legal_notice: "Mentions légales"
 
 pagination:
   page: "Page"

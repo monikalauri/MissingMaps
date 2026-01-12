@@ -4,7 +4,7 @@
 <div class="menu-bottom">
   <ul>
     {% for item in site.data.menu.bottom %}
-    {% assign label = T.nav_labels[item.key] | default: item.name %}
+    {% assign label = T.bottom[item.key] | default: item.name %}
 
     {% assign href = item.url %}
     {% if href and href != "#" and href contains "://" %}

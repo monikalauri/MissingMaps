@@ -8,6 +8,6 @@ description: |-
   Aquí puedes explorar las campañas prioritarias actuales de Missing Maps.
   Elige la que mejor se adapte a tu nivel y ¡empieza a mapear!
 
-image: "assets/images/pages/current-projects.jpg"
+image: "assets/images/pages/current-projects-header.webp"
 image_credit: "Edgar Lima / MSF"
 ---
